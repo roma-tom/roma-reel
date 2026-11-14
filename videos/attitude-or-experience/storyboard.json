@@ -1,0 +1,28 @@
+{
+  "title": "Hire for Attitude or for Experience?",
+  "cover": { "hero": "number", "number": "9 in 10", "label": "failed hires: attitude, managers said" },
+  "background": "paper",
+  "output": "video.mp4",
+  "mix": { "pad": "drift" },
+  "scenes": [
+    { "type": "./hook.js", "duration": 4, "peek": false,
+      "say": "Lots of experience and a good hire sound like the same thing. Often they're not.",
+      "props": { "label": "HIRING", "line": "More experience, *better hire*?", "left": "10 YEARS", "right": "NEW" } },
+    { "type": "myth", "duration": 5,
+      "say": "You can teach someone to steam milk in a week. Teaching them to care about a guest takes a lot longer.",
+      "props": { "caption": "Myth or *fact*?",
+        "myth": "The most experienced one is the best hire",
+        "fact": "Skills can be taught. Attitude is much harder to teach." } },
+    { "type": "scale", "duration": 5, "peek": false,
+      "say": "In one big study, managers were asked why their new hires didn't work out. Almost nine in ten said attitude, not skill.",
+      "props": { "caption": "Why new hires *don't work out*",
+        "left": { "label": "Skill", "weight": 1 },
+        "right": { "label": "Attitude", "weight": 9 },
+        "verdict": "9 in 10: *attitude*, managers said" } },
+    { "type": "fix", "duration": 4.5,
+      "say": "So ask about their worst shift. Watch how they treat everyone, not just you. And do a paid trial shift.",
+      "props": { "title": "Hire the attitude",
+        "steps": ["Ask about their worst shift", "Watch how they treat everyone", "Do a paid trial shift"] } },
+    { "type": "endcard", "duration": 2.6, "say": "Follow for more owner tips.", "props": {} }
+  ]
+}
