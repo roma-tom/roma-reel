@@ -23,15 +23,8 @@ behind a non-advice topic in the order. Topics without a hook idea need one befo
 ## Up next
 
 - [ ] Should you pay a bit above minimum wage to keep staff? [advice] Hook: "One dollar an hour, against two thousand to replace her." (hook idea: a barista tomato walks toward the exit with her apron off; a one-dollar coin rolls across the floor and stops at her feet, and she stops too; scale, jar)
-- [ ] Is a bigger menu costing you money? [advice] Hook: "More dishes, more sales, right? Usually not." (hook idea: a menu unfolds, and unfolds, and keeps unfolding off the bottom of the screen while Dev in the kitchen watches it, sweating; menu, myth)
-- [ ] What a guest decides in their first ten seconds [guests] Hook: (guest) "Hmm. Is this place any good?" (hook idea: a ten-second timer bar drains across the top while a new guest's eyes dart around the room; everything they notice gets a tick or a cross; quote, countdown; keep it a guest's-eye story, no invented statistic)
-- [ ] You don't have to post every day [hot take] Hook: "Post every day or disappear, they say. That rule burns owners out." (hook idea: a calendar where a phone stamp hits every day, faster and faster, while Roma Tom beside it gets smaller and smaller; myth, countdown)
-- [ ] Should your staff eat for free? [advice] Hook: "If leftovers are the only free food your staff get, look at what that tells them." (hook idea: perfect plates float past to the guests while Dev, on his break, gets handed a plate of burnt ends from the back; scale, receipt)
-- [ ] The espresso machine died at seven on a Saturday [story] Hook: (Maria) "Is the machine... smoking?" (hook idea: the espresso machine shakes, puffs smoke and goes bang, and the whole line of guests flinches at once; day, chat, fix)
-- [ ] Gift cards: free money or a promise you have to keep? [advice] Hook: "A gift card sale and income sound like the same thing. They're not." (hook idea: a gift card slides into the register, the drawer opens, and the cash inside is see-through with a little IOU tag on it; myth, jar)
 - [ ] Which earns more: the cheapest thing on your menu or the priciest? [quiz] Hook: "The two dollar cookie or the sixteen dollar plate: which one earns you more?" (hook idea: a $2 cookie and a $16 plate on a seesaw; it tips back and forth, then freezes level with a question mark; menu, versus; ends asking for guesses)
 - [ ] Card surcharges: pass the fee on, or absorb it? [advice] Hook: (guest) "Wait. What's this extra fee on my check?" (receipt, scale)
-- [ ] What owners say, and what they mean [relatable] Hook: "Busy weekend? Translation: I haven't sat down since Thursday." (countdown, quote)
 - [ ] Why does a free sample sell more than a discount? [advice] Hook: "Everyone reaches for a discount. A free taste usually sells more." (myth, versus)
 - [ ] The one-star guest who became a regular [story] Hook: (Ivan) "My latte was cold. One star." (review, quote, regulars)
 - [ ] Hire for attitude or for experience? [advice] Hook: "Lots of experience and a good hire sound like the same thing. Often they're not." (scale, myth)
@@ -124,9 +117,19 @@ Made as videos:
 - [x] Year one owner versus year ten owner (`videos/year-one-year-ten`)
 - [x] Should prices end in .95 or a round number? (`videos/nine-ninety-five`)
 - [x] The dishwasher is the most important person in your kitchen (`videos/dishwasher`)
-- [x] The texts every owner gets before 7 am (`videos/texts-before-seven`)
-- [x] How does portion creep quietly eat your margin? (`videos/portion-creep`)
-- [x] The last hour nobody sees: closing the cafe (`videos/closing-time`)
+- [x] How does portion creep quietly eat your margin? (`videos/portion-creep-fries`)
+- [x] How does portion creep quietly eat your margin, a second take (`videos/portion-creep`)
+- [x] The texts every owner gets before 7 am (`videos/before-seven`)
+- [x] The texts every owner gets before 7 am, a second take (`videos/texts-before-seven`)
+- [x] The last hour nobody sees: closing the cafe (`videos/closing-time-leo`)
+- [x] The last hour nobody sees: closing the cafe, a second take (`videos/closing-time`)
+- [x] Is a bigger menu costing you money? (`videos/bigger-menu`)
+- [x] What a guest decides in their first ten seconds (`videos/first-ten-seconds`)
+- [x] You don't have to post every day (`videos/post-every-day`)
+- [x] Should your staff eat for free? (`videos/staff-meal`)
+- [x] The espresso machine died at seven on a Saturday (`videos/espresso-down`)
+- [x] Gift cards: free money or a promise you have to keep? (`videos/gift-cards`)
+- [x] What owners say, and what they mean (`videos/owner-translation`)
 
 Examples in the style guide:
 
