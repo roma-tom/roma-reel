@@ -1,0 +1,79 @@
+{
+  "title": "The One-Star Guest Who Became a Regular",
+  "cover": {
+    "hero": "tomato",
+    "name": "Ivan"
+  },
+  "background": "sky",
+  "output": "video.mp4",
+  "mix": {
+    "pad": "sway"
+  },
+  "scenes": [
+    {
+      "type": "./hook.js",
+      "duration": 4,
+      "peek": false,
+      "say": "Monday. Ivan leaves Roma Tom one star. My latte was cold.",
+      "props": {
+        "label": "STORY TIME",
+        "line": "One star. *Cold latte.*"
+      }
+    },
+    {
+      "type": "review",
+      "duration": 5.5,
+      "say": "Roma Tom replies the same day. You're right, Ivan, and I'm sorry. Your next one's on me.",
+      "props": {
+        "caption": "The reply, *same day*",
+        "name": "Ivan",
+        "stars": 1,
+        "text": "My latte was cold and nobody noticed.",
+        "reply": "You're right, Ivan, and I'm sorry. Your next latte is on me, made hot, by me.",
+        "owner": "Roma Tom"
+      }
+    },
+    {
+      "type": "quote",
+      "duration": 4,
+      "speaker": "Ivan",
+      "say": "Okay. I came back. That latte was perfect.",
+      "props": {
+        "name": "Ivan",
+        "role": "came back on Friday",
+        "quote": "Okay. That latte was *perfect*."
+      }
+    },
+    {
+      "type": "stampcard",
+      "duration": 4.5,
+      "say": "Three months later, Ivan's stamp card is full. He's in every Tuesday.",
+      "props": {
+        "caption": "Three months *later*",
+        "title": "Ivan's card",
+        "stamps": 8,
+        "filled": 8,
+        "reward": "9th latte *free*",
+        "name": "Ivan"
+      }
+    },
+    {
+      "type": "quote",
+      "duration": 4,
+      "say": "A one star review is a guest who still cares enough to tell you.",
+      "props": {
+        "name": "Roma Tom",
+        "role": "owner",
+        "quote": "One star means they *still care*."
+      }
+    },
+    {
+      "type": "endcard",
+      "duration": 3,
+      "say": "Follow for more cafe life.",
+      "props": {
+        "cta": "Follow for more *cafe life*"
+      }
+    }
+  ]
+}
