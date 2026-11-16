@@ -1,0 +1,70 @@
+{
+  "title": "What Your Regulars' Orders Say About Them",
+  "cover": {
+    "hero": "crowd",
+    "names": [
+      "Maria",
+      "Sam",
+      "Priya"
+    ]
+  },
+  "background": "butter",
+  "output": "video.mp4",
+  "mix": {
+    "pad": "sunny"
+  },
+  "scenes": [
+    {
+      "type": "./hook.js",
+      "duration": 4,
+      "peek": false,
+      "say": "Tell me your usual, and I'll tell you who you are.",
+      "props": {
+        "label": "REGULARS",
+        "line": "Your usual *says a lot*.",
+        "cups": [
+          "OAT",
+          "BLACK",
+          "MATCHA"
+        ],
+        "names": [
+          "Maria",
+          "Sam",
+          "Priya"
+        ]
+      }
+    },
+    {
+      "type": "countdown",
+      "duration": 5,
+      "say": "Black drip, no lid? Up since five. Oat flat white? Has a nine o'clock meeting. And the new seasonal special? Here for the photo, and honestly, that's great.",
+      "props": {
+        "caption": "What the order *says*",
+        "items": [
+          "Black drip, no lid: up since 5",
+          "Oat flat white: has a 9 am",
+          "The seasonal special: photo first"
+        ]
+      }
+    },
+    {
+      "type": "quote",
+      "duration": 4.5,
+      "speaker": "Maria",
+      "say": "And the best usual of all? When I walk in, and it's already being made.",
+      "props": {
+        "name": "Maria",
+        "role": "regular, oat flat white",
+        "quote": "My usual is *already being made*."
+      }
+    },
+    {
+      "type": "endcard",
+      "duration": 3,
+      "say": "What's your usual? Tell me in the comments. Follow for more cafe life.",
+      "props": {
+        "cta": "Follow for more *cafe life*"
+      }
+    }
+  ]
+}
