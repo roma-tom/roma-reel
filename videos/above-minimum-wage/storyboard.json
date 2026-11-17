@@ -1,0 +1,63 @@
+{
+  "title": "Pay $1 More an Hour, or $2,000 to Replace Her?",
+  "cover": { "hero": "tomato", "name": "Lina", "kicker": "STAFF", "headline": "$1 an hour, or *$2,000*?" },
+  "background": "blush",
+  "output": "video.mp4",
+  "mix": { "pad": "warm" },
+  "scenes": [
+    {
+      "type": "./hook.js",
+      "duration": 3.4,
+      "peek": false,
+      "say": "One dollar an hour, against two thousand dollars to replace her.",
+      "props": { "label": "STAFF", "line": "$1 an hour, or *$2,000*?", "coin": "$1", "cost": "$2,000 TO REPLACE", "name": "Lina" }
+    },
+    {
+      "type": "receipt",
+      "duration": 5,
+      "say": "Say your barista Lina quits. The job ad, interviews, training and a slower line add up to about two thousand dollars.",
+      "props": {
+        "caption": "If Lina *quits*",
+        "title": "REPLACING ONE BARISTA",
+        "items": [
+          { "label": "Job ad", "amount": -150 },
+          { "label": "Interviews", "amount": -150 },
+          { "label": "Training pay", "amount": -640 },
+          { "label": "Trainer's time", "amount": -360 },
+          { "label": "Remakes, waste", "amount": -200 },
+          { "label": "Slower line", "amount": -500 }
+        ],
+        "totalLabel": "Total", "total": 2000
+      }
+    },
+    {
+      "type": "quote",
+      "duration": 4.5,
+      "speaker": "Lina",
+      "say": "Honestly? The cafe down the street offered me a dollar more an hour.",
+      "props": { "caption": "Why she's *leaving*", "name": "Lina", "role": "Barista, two years", "quote": "They offered me *a dollar* more." }
+    },
+    {
+      "type": "scale",
+      "peek": false,
+      "duration": 5,
+      "say": "Now pay her one dollar more instead. At thirty hours a week, that's fifteen sixty a year. Less than replacing her.",
+      "props": {
+        "caption": "$1 × 30 hours × 52 weeks",
+        "left": { "label": "Raise: $1,560 a year", "weight": 1 },
+        "right": { "label": "Replace: $2,000", "weight": 2 },
+        "verdict": "Keeping her is *cheaper*"
+      }
+    },
+    {
+      "type": "fix",
+      "duration": 5,
+      "say": "So start with your best people. Give the raise before they ask, and tell them why: you want them to stay.",
+      "props": {
+        "title": "Keep your best",
+        "steps": ["Start with your best people", "Raise before they ask", "Say why: you want them here"]
+      }
+    },
+    { "type": "endcard", "duration": 2.6, "say": "Follow for more owner tips.", "props": {} }
+  ]
+}

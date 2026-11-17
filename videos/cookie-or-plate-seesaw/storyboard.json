@@ -1,0 +1,81 @@
+{
+  "title": "The $2 Cookie or the $16 Plate: Which Earns More?",
+  "cover": {
+    "hero": "headline"
+  },
+  "background": "blush",
+  "output": "video.mp4",
+  "mix": {
+    "pad": "warm"
+  },
+  "scenes": [
+    {
+      "type": "./hook.js",
+      "duration": 4,
+      "peek": false,
+      "say": "The two dollar cookie or the sixteen dollar plate. Which one earns you more?",
+      "props": {
+        "label": "QUIZ",
+        "line": "Cookie or plate: which earns *more*?",
+        "left": "$2",
+        "right": "$16",
+        "mark": "?"
+      }
+    },
+    {
+      "type": "versus",
+      "duration": 4.5,
+      "say": "Per sale, the plate wins easily. Say the cookie leaves you a dollar seventy, and the plate ten dollars forty.",
+      "props": {
+        "caption": "What you keep, *per sale*",
+        "left": {
+          "name": "Maria",
+          "label": "Cookie",
+          "value": "$1.70",
+          "note": "$2 minus 30\u00a2 to make"
+        },
+        "right": {
+          "name": "Dev",
+          "label": "Plate",
+          "value": "$10.40",
+          "note": "$16 minus $5.60 food"
+        },
+        "winner": "right"
+      }
+    },
+    {
+      "type": "scale",
+      "duration": 4.5,
+      "say": "But say you sell eighty cookies a day and twelve plates. That's a hundred and thirty-six dollars from cookies, and about a hundred and twenty-five from plates.",
+      "props": {
+        "caption": "Now *per day*",
+        "left": {
+          "label": "Cookies $136",
+          "weight": 3
+        },
+        "right": {
+          "label": "Plates $125",
+          "weight": 2
+        },
+        "verdict": "The cookie *wins the day*"
+      },
+      "peek": false
+    },
+    {
+      "type": "quote",
+      "duration": 4,
+      "say": "Small margin, big volume. And the cookie doesn't need a cook. What did you guess?",
+      "props": {
+        "name": "Roma Tom",
+        "role": "owner",
+        "quote": "Small margin, *big volume*. What did you guess?"
+      }
+    },
+    {
+      "type": "endcard",
+      "duration": 2.6,
+      "say": "Follow for more owner tips.",
+      "props": {}
+    }
+  ]
+}

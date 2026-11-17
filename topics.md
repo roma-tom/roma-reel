@@ -22,7 +22,6 @@ behind a non-advice topic in the order. Topics without a hook idea need one befo
 
 ## Up next
 
-- [ ] Should you pay a bit above minimum wage to keep staff? [advice] Hook: "One dollar an hour, against two thousand to replace her." (hook idea: a barista tomato walks toward the exit with her apron off; a one-dollar coin rolls across the floor and stops at her feet, and she stops too; scale, jar)
 - [ ] Why does a free sample sell more than a discount? [advice] Hook: "Everyone reaches for a discount. A free taste usually sells more." (myth, versus)
 - [ ] Where does your $5 latte actually go? [advice] Hook: "Five dollars a latte. Guess how much you keep." (receipt, plate)
 - [ ] Should you open on Mondays? [advice] Hook: "Seven days a week sounds like more money. Not always." (calendar, receipt)
@@ -124,12 +123,14 @@ Made as videos:
 - [x] The espresso machine died at seven on a Saturday (`videos/espresso-down`)
 - [x] Gift cards: free money or a promise you have to keep? (`videos/gift-cards`)
 - [x] What owners say, and what they mean (`videos/owner-translation`)
-- [x] Which earns more: the cheapest thing on your menu or the priciest? (`videos/cookie-or-plate`)
+- [x] Which earns more: the cheapest thing on your menu or the priciest? (`videos/cookie-or-plate-seesaw`)
+- [x] Which earns more: the cheapest thing on your menu or the priciest, a second take (`videos/cookie-or-plate`)
 - [x] The one-star guest who became a regular (`videos/one-star-regular`)
 - [x] Hire for attitude or for experience? (`videos/attitude-or-experience`)
 - [x] What your regulars' orders say about them (`videos/your-usual`)
 - [x] Card surcharges: pass the fee on, or absorb it? (`videos/card-surcharge`)
 - [x] Rate these cafe crimes (`videos/cafe-crimes`)
+- [x] Should you pay a bit above minimum wage to keep staff? (`videos/above-minimum-wage`)
 
 Examples in the style guide:
 

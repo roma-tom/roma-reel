@@ -1,74 +1,50 @@
 {
-  "title": "The $2 Cookie or the $16 Plate: Which Earns More?",
-  "cover": {
-    "hero": "headline"
-  },
-  "background": "blush",
+  "title": "$2 Cookie or $16 Plate: Which Earns More?",
+  "cover": { "hero": "headline", "kicker": "QUIZ", "headline": "$2 cookie or $16 plate: which earns *more*?" },
+  "background": "paper",
   "output": "video.mp4",
-  "mix": {
-    "pad": "warm"
-  },
+  "mix": { "pad": "sway" },
   "scenes": [
     {
       "type": "./hook.js",
-      "duration": 4,
+      "duration": 3.4,
       "peek": false,
       "say": "The two dollar cookie or the sixteen dollar plate. Which one earns you more?",
-      "props": {
-        "label": "QUIZ",
-        "line": "Cookie or plate: which earns *more*?",
-        "left": "$2",
-        "right": "$16",
-        "mark": "?"
-      }
+      "props": { "label": "QUIZ", "line": "Which earns you *more*?", "left": "$2 cookie", "right": "$16 plate", "mark": "?" }
     },
     {
       "type": "versus",
-      "duration": 4.5,
-      "say": "Per sale, the plate wins easily. Say the cookie leaves you a dollar seventy, and the plate ten dollars forty.",
+      "duration": 5,
+      "say": "Say the cookie costs forty cents to make, so you keep a dollar sixty. The plate costs five sixty, so you keep ten forty. Per sale, the plate wins.",
       "props": {
-        "caption": "What you keep, *per sale*",
-        "left": {
-          "name": "Maria",
-          "label": "Cookie",
-          "value": "$1.70",
-          "note": "$2 minus 30\u00a2 to make"
-        },
-        "right": {
-          "name": "Dev",
-          "label": "Plate",
-          "value": "$10.40",
-          "note": "$16 minus $5.60 food"
-        },
+        "caption": "Per sale: *the plate*",
+        "left": { "name": "Maria", "label": "$2 cookie", "value": "$1.60", "note": "kept, after 40¢ to make" },
+        "right": { "name": "Dev", "label": "$16 plate", "value": "$10.40", "note": "kept, after $5.60 to make" },
         "winner": "right"
       }
     },
     {
       "type": "scale",
-      "duration": 4.5,
-      "say": "But say you sell eighty cookies a day and twelve plates. That's a hundred and thirty-six dollars from cookies, and about a hundred and twenty-five from plates.",
+      "duration": 5,
+      "say": "But you sell fifty cookies a day, and six plates. Fifty cookies keep you eighty dollars. Six plates keep sixty-two forty.",
       "props": {
-        "caption": "Now *per day*",
-        "left": {
-          "label": "Cookies $136",
-          "weight": 3
-        },
-        "right": {
-          "label": "Plates $125",
-          "weight": 2
-        },
-        "verdict": "The cookie *wins the day*"
-      },
-      "peek": false
+        "caption": "But per *day*?",
+        "left": { "label": "50 cookies: $80", "weight": 80 },
+        "right": { "label": "6 plates: $62.40", "weight": 62 },
+        "verdict": "Per day, it *flips*"
+      }
     },
     {
-      "type": "quote",
-      "duration": 4,
-      "say": "Small margin, big volume. And the cookie doesn't need a cook. What did you guess?",
+      "type": "menu",
+      "duration": 4.5,
+      "say": "So the answer is the cookie. Cheap things that sell all day add up fast. What did you guess?",
       "props": {
-        "name": "Roma Tom",
-        "role": "owner",
-        "quote": "Small margin, *big volume*. What did you guess?"
+        "caption": "The answer: *the cookie*",
+        "title": "Today",
+        "items": [
+          { "name": "Cookie", "price": "2", "mark": "star", "note": "$80 a day" },
+          { "name": "Dinner plate", "price": "16", "mark": "circle", "note": "$62.40 a day" }
+        ]
       }
     },
     {
