@@ -27,7 +27,6 @@ behind a non-advice topic in the order. Topics without a hook idea need one befo
 - [ ] Should you open on Mondays? [advice] Hook: "Seven days a week sounds like more money. Not always." (calendar, receipt)
 - [ ] First in, first out: how do you stop throwing food away? [advice] Hook: "[Weekly number] dollars of food, in the trash, every week." (jar, fix)
 - [ ] How Dev went from dishwasher to running the kitchen [story] Hook: (Dev) "My first job here was the dish pit." (day, quote)
-- [ ] How do you speed up the coffee bar without adding staff? [advice] Hook: "More staff, faster line? Not always." (tickets, day)
 - [ ] You finally take a day off [relatable] Hook: "Day off. Phone on silent. Eleven missed calls." (chat, day)
 - [ ] Delivery app or your own ordering: how much do you keep? [advice] Hook: "Same order, same price. You keep very different money." (versus, receipt)
 - [ ] How many times can you turn every table on a busy night? [quiz] Hook: "Guess how many times one table turns on a Friday night." (floor, receipt)
@@ -131,6 +130,7 @@ Made as videos:
 - [x] Rate these cafe crimes (`videos/cafe-crimes`)
 - [x] Should you pay a bit above minimum wage to keep staff? (`videos/above-minimum-wage`)
 - [x] People come back for the hello, not the latte (`videos/the-hello`)
+- [x] How do you speed up the coffee bar without adding staff? (`videos/coffee-bar-speed`)
 
 Examples in the style guide:
 
