@@ -18,6 +18,7 @@ scripts/
   cover.js            the crop-safe cover image alone, with --guides to see the crops
   new.js              scaffold videos/<slug>/
   publish.js          upload a finished video, cover and caption as a GitHub Release
+  instagram.js        post a published video to Instagram as a Reel, through Instagram's API
   still.js            one still of a scene on any backgrounds → out/
   scenes/             the 25 templates and the end card
   lib/
@@ -94,9 +95,27 @@ node scripts/publish.js videos/<slug>
 This makes the release `video/<slug>` and attaches `<slug>.mp4`, `<slug>-cover.jpg` and
 `<slug>-caption.txt`, with the title and caption in the release notes. It prints the release
 page (download buttons, easy on a phone) and a public download link for each file, ready for a
-social media scheduler. Running it again after a re-render replaces the files.
+social media scheduler or Instagram. Running it again after a re-render replaces the files.
 
 It needs `GITHUB_TOKEN`: a fine-grained token with "Contents: Read and write" on this repo, in
 `.env.local` or the environment (for cloud sessions, the environment's settings).
 
 Videos committed before this change are still in git history, at their old commit links.
+
+## Posting to Instagram
+
+```bash
+node scripts/instagram.js videos/<slug>    # post now: a Reel that also shows on the feed
+node scripts/instagram.js --check          # the account, and API posts left today
+node scripts/instagram.js --refresh        # renew the 60-day token (in .env.local)
+```
+
+It uses the Instagram API with Instagram Login: Instagram fetches the video and cover from the
+release links (so publish first), processes the video, and the script publishes it and prints
+the post's link. The API can't schedule, so it posts the moment it runs, and other networks
+are posted by hand.
+
+It needs `INSTAGRAM_ACCESS_TOKEN`, a long-lived token for the Roma Tom Instagram account (a
+Business or Creator account) with `instagram_business_basic` and
+`instagram_business_content_publish`, from a Meta developer app. Tokens last 60 days:
+`--refresh` renews one that's at least a day old.

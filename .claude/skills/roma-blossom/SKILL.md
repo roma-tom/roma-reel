@@ -130,8 +130,8 @@ root and follow what it prints. The first render that falls back to Kokoro downl
    It prints the release page and a download link for each file. Run it again after a
    re-render: it replaces the files in the same release. Uploading can take a minute or two on
    a slow connection, so give it a 10-minute timeout.
-10. **Hand it over** for the user to post by hand. This is the default: don't touch any social
-   media scheduler unless the user asked for auto-posting (step 11). Give:
+10. **Hand it over** for the user to post by hand. This is the default: don't post anywhere
+   unless the user asked for auto-posting (step 11). Give:
    - the links `publish.js` printed: the release page (download buttons for all three files,
      easy on a phone) and the direct links to the video, cover and caption
    - the caption in a code block (one tap to copy), and `title` for the networks that ask for one
@@ -144,31 +144,24 @@ root and follow what it prints. The first render that falls back to Kokoro downl
    "auto post it", "post it", or "schedule it". Never on your own initiative, and not when the
    request is unclear: then hand over as in step 10 and ask.
 
-   Use the user's social media scheduler connector (the MCP tools that list brands, suggest the
-   best time to post and create scheduled posts) to schedule **one post** that publishes
-   automatically on every connected network. Never post to Stories on any network. If no such
-   connector is available, say so and hand over as in step 10.
-   - **Brand:** the one labelled Roma Tom. Use its timezone and post to every network it has
-     connected.
-   - **Media:** the video's download link from step 10. The scheduler copies the file when the post is
-     created, so later commits can't break it.
-   - **When:** the time the user gave; otherwise the best-scoring hour in the next 7 days
-     (Instagram's data if it is connected), at least 12 hours from now, on an hour with no other
-     post already scheduled that day.
-   - **Draft instead,** if the user asked for a draft or to review first: then create it as a
-     draft, so nothing publishes until they schedule it themselves.
-   - **Text:** `caption.txt`, as it is (it has no emoji, like the video).
-   - **Cover:** the cover link from step 10, as the post's custom cover image. Only if the
-     scheduler refuses a custom image for a network, fall back to a frame offset there: the
-     frame where the hook question is fully written (`hook duration × 1000 − 300` ms), never the
-     first frame.
-   - **Per network,** with `title` from `storyboard.json` wherever a title is asked for:
-     Instagram as a Reel that also shows on the feed; Facebook as a Reel with the title; TikTok
-     public, with the title (required); YouTube as a public Short, not made for kids, category
-     Education, with the title. Leave every AI-content label off: the visuals are cartoons
-     drawn by code, not realistic footage.
+   Post to **Instagram** directly through Instagram's own API, with no scheduler in between. Do
+   this after step 9, because Instagram fetches the video and cover from their release links:
+   ```bash
+   node scripts/instagram.js videos/<slug>
+   ```
+   It posts one Reel that also shows on the feed, with `caption.txt` as the caption and the
+   release cover as the cover, waits while Instagram processes it, and prints the post's link.
+   Never post to Stories. Give it a 15-minute timeout.
+   - **It publishes immediately.** Instagram's API can't schedule. If the user asked for a later
+     time, say so and ask whether to post now or wait. If they asked for a draft or to review
+     first, don't run it: hand over as in step 10.
+   - **Needs** `INSTAGRAM_ACCESS_TOKEN` (in the environment or `.env.local`; never print it).
+     If it's missing or rejected, say so and hand over as in step 10. `node scripts/instagram.js
+     --check` shows the account, and how many API posts it has left today, without posting.
+   - **Other networks** (TikTok, YouTube, Facebook) aren't automated: list them in the
+     hand-over for the user to post by hand, with `title` from `storyboard.json`.
 
-   Then add to the hand-over: the link to the post in the scheduler and when it goes out.
+   Then add to the hand-over: the Instagram post's link.
 
 ## Storyboard format
 
