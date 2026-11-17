@@ -1,0 +1,31 @@
+{
+  "title": "How Dev Went From Dishwasher to Running the Kitchen",
+  "cover": { "hero": "number", "number": "6 years", "label": "dish pit to running the kitchen" },
+  "background": "mint",
+  "output": "video.mp4",
+  "mix": { "pad": "sway" },
+  "scenes": [
+    { "type": "./hook.js", "duration": 4, "peek": false, "speaker": "Dev",
+      "say": "My first job here was the dish pit. Now I run the kitchen.",
+      "props": { "label": "STORY TIME", "line": "From the dish pit to *the pass*." } },
+    { "type": "day", "duration": 5, "speaker": "Dev",
+      "say": "Year one, dishes. Year two, prep. Year four, the line. Year six, I'm running the kitchen.",
+      "props": { "caption": "Six years, *one kitchen*",
+        "steps": [
+          { "time": "Year 1", "label": "Dish pit" },
+          { "time": "Year 2", "label": "Prep cook" },
+          { "time": "Year 4", "label": "Line cook" },
+          { "time": "Year 6", "label": "Running the kitchen" }
+        ],
+        "highlight": 3, "host": "Dev" } },
+    { "type": "quote", "duration": 4.5, "speaker": "Dev",
+      "say": "Roma Tom taught me one station at a time, on slow afternoons.",
+      "props": { "name": "Dev", "role": "runs the kitchen now", "quote": "He taught me *one station* at a time." } },
+    { "type": "quote", "duration": 4.5,
+      "say": "The best kitchen manager I ever hired was already washing my dishes.",
+      "props": { "name": "Roma Tom", "role": "owner", "quote": "My best hire was already *washing dishes*." } },
+    { "type": "endcard", "duration": 3,
+      "say": "Tag someone who started in the dish pit. Follow for more cafe life.",
+      "props": { "cta": "Follow for more *cafe life*" } }
+  ]
+}
