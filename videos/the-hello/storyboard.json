@@ -1,0 +1,25 @@
+{
+  "title": "People Come Back for the Hello, Not the Latte",
+  "cover": { "hero": "tomato", "name": "Maria" },
+  "background": "blush",
+  "output": "video.mp4",
+  "mix": { "pad": "warm" },
+  "scenes": [
+    { "type": "./hook.js", "duration": 3.5, "peek": false,
+      "say": "Your coffee isn't why they come back. The hello is.",
+      "props": { "label": "HOT TAKE", "line": "They come back for the *hello*.", "hello": "Hi, Maria!" } },
+    { "type": "scale", "duration": 4.5, "peek": false,
+      "say": "A great latte matters. But plenty of cafes make a great latte. Only yours knows Maria's name.",
+      "props": { "caption": "What *really* brings them back",
+        "left": { "label": "A perfect latte", "weight": 2 },
+        "right": { "label": "\"Hi, Maria!\"", "weight": 3 },
+        "verdict": "The hello *wins*" } },
+    { "type": "quote", "duration": 4, "speaker": "Maria",
+      "say": "They remembered my name. And my dog's name.",
+      "props": { "name": "Maria", "role": "regular, three years", "quote": "They know my name. *And my dog's.*" } },
+    { "type": "quote", "duration": 4.5,
+      "say": "So learn five regulars' names this week. The coffee keeps them happy. The hello brings them back. Agree?",
+      "props": { "name": "Roma Tom", "role": "owner", "quote": "Learn five names this week. *Agree?*" } },
+    { "type": "endcard", "duration": 2.6, "say": "Follow for more owner tips.", "props": {} }
+  ]
+}

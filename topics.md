@@ -25,7 +25,6 @@ behind a non-advice topic in the order. Topics without a hook idea need one befo
 - [ ] Why does a free sample sell more than a discount? [advice] Hook: "Everyone reaches for a discount. A free taste usually sells more." (myth, versus)
 - [ ] Where does your $5 latte actually go? [advice] Hook: "Five dollars a latte. Guess how much you keep." (receipt, plate)
 - [ ] Should you open on Mondays? [advice] Hook: "Seven days a week sounds like more money. Not always." (calendar, receipt)
-- [ ] People come back for the hello, not the latte [hot take] Hook: "Your coffee isn't why they come back." (scale, quote)
 - [ ] First in, first out: how do you stop throwing food away? [advice] Hook: "[Weekly number] dollars of food, in the trash, every week." (jar, fix)
 - [ ] How Dev went from dishwasher to running the kitchen [story] Hook: (Dev) "My first job here was the dish pit." (day, quote)
 - [ ] How do you speed up the coffee bar without adding staff? [advice] Hook: "More staff, faster line? Not always." (tickets, day)
@@ -131,6 +130,7 @@ Made as videos:
 - [x] Card surcharges: pass the fee on, or absorb it? (`videos/card-surcharge`)
 - [x] Rate these cafe crimes (`videos/cafe-crimes`)
 - [x] Should you pay a bit above minimum wage to keep staff? (`videos/above-minimum-wage`)
+- [x] People come back for the hello, not the latte (`videos/the-hello`)
 
 Examples in the style guide:
 
