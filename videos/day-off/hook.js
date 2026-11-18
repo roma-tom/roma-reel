@@ -34,11 +34,18 @@ function hook(ctx, theme, t, props, info = {}) {
   pen.line(ctx, [{ x: 720, y: 1335 }, { x: 740, y: GROUND }], { width: 7, seed: 26122 });
   const peek = S.at(sec, PEEK, PEEK + 0.3);
   const rx = 420, ry = 1150 - peek * 40;
-  tomato(ctx, 'Roma Tom', rx, ry, 420, { angle: -0.35 + peek * 0.25, squash: S.breathe(sec * 0.5) });
-  // Sunglasses, slipping down when he peeks.
-  const gy = ry - 20 + peek * 30;
-  [-55, 55].forEach((dx, i) => pen.shape(ctx, pen.ellipse(rx + dx - 20, gy, 46, 34, 18), { fill: C.ink, width: 4, seed: 26130 + i, offset: 0 }));
-  pen.line(ctx, [{ x: rx - 30, y: gy }, { x: rx + 10, y: gy }], { width: 6, seed: 26132 });
+  const size = 420, angle = -0.35 + peek * 0.25;
+  tomato(ctx, 'Roma Tom', rx, ry, size, { angle, squash: S.breathe(sec * 0.5) });
+  // Sunglasses, drawn in the tomato's own frame (same pivot and tilt as tomato() uses) so they
+  // sit on its eyes and tilt with its head; they slip down the face when he peeks over them.
+  const bottom = (441 / 512) * size;
+  ctx.save();
+  ctx.translate(rx, ry - size / 2 + bottom);
+  ctx.rotate(angle);
+  const gy = -0.34 * size + peek * 0.09 * size, gap = 0.1 * size;
+  [-1, 1].forEach((d, i) => pen.shape(ctx, pen.ellipse(d * gap, gy, 0.085 * size, 0.06 * size, 18), { fill: C.ink, width: 4, seed: 26130 + i, offset: 0 }));
+  pen.line(ctx, [{ x: -gap + 0.07 * size, y: gy - 4 }, { x: gap - 0.07 * size, y: gy - 4 }], { width: 6, seed: 26132 });
+  ctx.restore();
   pen.line(ctx, [{ x: -40, y: GROUND }, { x: 1120, y: GROUND - 4 }], { width: 7, seed: 26133 });
 
   // The side table and the phone, buzzing, its badge counting up faster and faster.
