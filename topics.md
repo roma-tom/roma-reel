@@ -28,7 +28,6 @@ behind a non-advice topic in the order. Topics without a hook idea need one befo
 - [ ] First in, first out: how do you stop throwing food away? [advice] Hook: "[Weekly number] dollars of food, in the trash, every week." (jar, fix)
 - [ ] Delivery app or your own ordering: how much do you keep? [advice] Hook: "Same order, same price. You keep very different money." (versus, receipt)
 - [ ] How many times can you turn every table on a busy night? [quiz] Hook: "Guess how many times one table turns on a Friday night." (floor, receipt)
-- [ ] How do you run a five-minute pre-shift huddle? [advice] Hook: "Five minutes before you open can save you an hour of chaos." (day, countdown)
 - [ ] To the owner who opened today on four hours of sleep [shout-out] Hook: "Cafe owners, this one's for you." (day, quote; ends on a kind word, not a tip)
 - [ ] How do you handle allergies without slowing service? [advice] Hook: (guest) "Is there any nut in this?" (tickets, fix)
 - [ ] A family of five just walked in [relatable] Hook: "Two high chairs, one stroller, zero free tables." (versus, countdown)
@@ -132,6 +131,7 @@ Made as videos:
 - [x] How do you speed up the coffee bar without adding staff? (`videos/coffee-bar-speed`)
 - [x] How Dev went from dishwasher to running the kitchen (`videos/dev-dish-to-kitchen`)
 - [x] You finally take a day off (`videos/day-off`)
+- [x] How do you run a five-minute pre-shift huddle? (`videos/pre-shift-huddle`)
 
 Examples in the style guide:
 

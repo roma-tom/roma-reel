@@ -1,0 +1,24 @@
+{
+  "title": "The Five-Minute Pre-Shift Huddle",
+  "cover": { "hero": "crowd", "names": ["Dev", "Ana", "Leo"] },
+  "background": "lime",
+  "output": "video.mp4",
+  "mix": { "pad": "sway" },
+  "scenes": [
+    { "type": "./hook.js", "duration": 4, "peek": false,
+      "say": "Five minutes before you open can save you an hour of chaos.",
+      "props": { "label": "STAFF", "line": "Five minutes *before you open*.", "mark": "?" } },
+    { "type": "countdown", "duration": 5,
+      "say": "Keep it to three things. What's eighty-sixed today. Who's on which station. And the one thing we're nailing this shift.",
+      "props": { "caption": "The huddle, in *three things*",
+        "items": ["What's 86'd today", "Who's on which station", "One thing we nail today"] } },
+    { "type": "quote", "duration": 4.5, "speaker": "Ana",
+      "say": "Before the huddle, I found out we were out of oat milk from a guest.",
+      "props": { "name": "Ana", "role": "barista, mornings", "quote": "I used to find out from *a guest*." } },
+    { "type": "fix", "duration": 4.5,
+      "say": "So: same time every shift, standing up, five minutes. Everyone talks once. And end on a thank you.",
+      "props": { "title": "Run the huddle",
+        "steps": ["Same time, standing, 5 minutes", "Everyone talks once", "End on a thank you"] } },
+    { "type": "endcard", "duration": 2.6, "say": "Follow for more owner tips.", "props": {} }
+  ]
+}
