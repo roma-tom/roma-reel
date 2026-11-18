@@ -1,79 +1,71 @@
 {
   "title": "The One-Star Guest Who Became a Regular",
-  "cover": {
-    "hero": "tomato",
-    "name": "Ivan"
-  },
-  "background": "sky",
+  "cover": { "hero": "number", "number": "1 star", "label": "to every Tuesday", "kicker": "IVAN", "headline": "My latte was *cold.*" },
+  "background": "butter",
   "output": "video.mp4",
-  "mix": {
-    "pad": "sway"
-  },
+  "mix": { "pad": "drift" },
   "scenes": [
     {
       "type": "./hook.js",
-      "duration": 4,
+      "duration": 3.2,
+      "speaker": "Ivan",
       "peek": false,
-      "say": "Monday. Ivan leaves Roma Tom one star. My latte was cold.",
-      "props": {
-        "label": "STORY TIME",
-        "line": "One star. *Cold latte.*"
-      }
+      "say": "My latte was cold. One star.",
+      "props": { "label": "ONE STAR", "line": "My latte was *cold.*", "name": "Ivan", "stars": 1 }
     },
     {
       "type": "review",
-      "duration": 5.5,
-      "say": "Roma Tom replies the same day. You're right, Ivan, and I'm sorry. Your next one's on me.",
+      "duration": 6,
+      "say": "Roma Tom could have argued. Instead he wrote back: you're right, I'm sorry, your next latte is on me.",
       "props": {
-        "caption": "The reply, *same day*",
+        "caption": "Roma Tom *writes back*",
         "name": "Ivan",
         "stars": 1,
-        "text": "My latte was cold and nobody noticed.",
-        "reply": "You're right, Ivan, and I'm sorry. Your next latte is on me, made hot, by me.",
+        "text": "Latte was cold and nobody noticed. One star.",
+        "reply": "Ivan, you're right, and I'm sorry. Your next latte is on me. I'll make it myself.",
         "owner": "Roma Tom"
       }
     },
     {
       "type": "quote",
-      "duration": 4,
-      "speaker": "Ivan",
-      "say": "Okay. I came back. That latte was perfect.",
-      "props": {
-        "name": "Ivan",
-        "role": "came back on Friday",
-        "quote": "Okay. That latte was *perfect*."
-      }
-    },
-    {
-      "type": "stampcard",
       "duration": 4.5,
-      "say": "Three months later, Ivan's stamp card is full. He's in every Tuesday.",
+      "speaker": "Ivan",
+      "say": "Fine. I'll try it once more. Okay, this one is actually hot.",
+      "props": { "name": "Ivan", "role": "back one week later", "quote": "Okay. This one is *actually hot*." }
+    },
+    {
+      "type": "day",
+      "duration": 5,
+      "say": "One week, a hot latte. Two weeks, the same table. By month three, Ivan is in every Tuesday.",
       "props": {
-        "caption": "Three months *later*",
-        "title": "Ivan's card",
-        "stamps": 8,
-        "filled": 8,
-        "reward": "9th latte *free*",
-        "name": "Ivan"
+        "caption": "From one star to *a regular*",
+        "steps": [
+          { "time": "Day 1", "label": "One star" },
+          { "time": "Day 2", "label": "Roma Tom replies" },
+          { "time": "Week 1", "label": "A hot latte" },
+          { "time": "Month 3", "label": "Every Tuesday" }
+        ],
+        "highlight": 3
       }
     },
     {
-      "type": "quote",
-      "duration": 4,
-      "say": "A one star review is a guest who still cares enough to tell you.",
+      "type": "review",
+      "duration": 6,
+      "say": "Then Ivan updates his review. Five stars. Cold latte once. The owner fixed it himself.",
       "props": {
-        "name": "Roma Tom",
-        "role": "owner",
-        "quote": "One star means they *still care*."
+        "caption": "Ivan *updates* his review",
+        "name": "Ivan",
+        "stars": 5,
+        "text": "Updated: cold latte once. The owner fixed it himself. Here every Tuesday now.",
+        "reply": "See you Tuesday, Ivan. Extra hot.",
+        "owner": "Roma Tom"
       }
     },
     {
       "type": "endcard",
       "duration": 3,
-      "say": "Follow for more cafe life.",
-      "props": {
-        "cta": "Follow for more *cafe life*"
-      }
+      "say": "Tag an owner who won a guest back. Follow for more cafe life.",
+      "props": { "cta": "Follow for more *cafe life*" }
     }
   ]
 }

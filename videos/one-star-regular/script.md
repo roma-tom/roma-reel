@@ -1,27 +1,27 @@
 # one-star-regular
 
-**Kind:** story (guests, reviews)
-**Question:** How does a one-star guest end up a regular?
-**Background:** sky, pad: sway. **Length:** about 33 s
+**Kind:** story
+**Question:** What happens when a guest leaves one star, and the owner answers with a fix instead of an argument?
+**Background:** butter, pad: drift. **Length:** about 35 s
 
 ## Scenes
 
 | # | Template | On screen | Says | Time |
 | --- | --- | --- | --- | --- |
-| 1 | ./hook.js | Ivan shivers over a latte with icicles on the cup; his phone pops up and taps out one star filled, four empty. "One star. *Cold latte.*" | Monday. Ivan leaves Roma Tom one star. My latte was cold. | 5.4 s |
-| 2 | review | The reply, *same day*: Ivan, 1 star, "My latte was cold and nobody noticed." Reply from Roma Tom: "You're right, Ivan, and I'm sorry. Your next latte is on me, made hot, by me." | Roma Tom replies the same day. You're right, Ivan, and I'm sorry. Your next one's on me. | 7.0 s |
-| 3 | quote | Ivan, came back on Friday: "Okay. That latte was *perfect*." | (Ivan) Okay. I came back. That latte was perfect. | 4.0 s |
-| 4 | stampcard | Three months *later*: Ivan's card, 8 of 8 stamps, "9th latte *free*" | Three months later, Ivan's stamp card is full. He's in every Tuesday. | 5.2 s |
-| 5 | quote | Roma Tom, owner: "One star means they *still care*." | A one star review is a guest who still cares enough to tell you. | 4.6 s |
-| 6 | endcard | Follow for more *cafe life* | Follow for more cafe life. | 3.1 s |
+| 1 | ./hook.js | Ivan at a table with a shivering latte (ice cubes bobbing in it), holding up his phone: one star stamps in rose, the other four stay empty. "ONE STAR" / "My latte was *cold.*" | (Ivan) My latte was cold. One star. | 3.2 s |
+| 2 | review | Roma Tom *writes back*. Ivan, 1 star: "Latte was cold and nobody noticed. One star." Reply: "Ivan, you're right, and I'm sorry. Your next latte is on me. I'll make it myself." | Roma Tom could have argued. Instead he wrote back: you're right, I'm sorry, your next latte is on me. | 7.4 s |
+| 3 | quote | Ivan, back one week later: "Okay. This one is *actually hot*." | (Ivan) Fine. I'll try it once more. Okay, this one is actually hot. | 4.5 s |
+| 4 | day | From one star to *a regular*: Day 1 One star / Day 2 Roma Tom replies / Week 1 A hot latte / Month 3 Every Tuesday | One week, a hot latte. Two weeks, the same table. By month three, Ivan is in every Tuesday. | 7.1 s |
+| 5 | review | Ivan *updates* his review: 5 stars, "Updated: cold latte once. The owner fixed it himself. Here every Tuesday now." Reply: "See you Tuesday, Ivan. Extra hot." | Then Ivan updates his review. Five stars. Cold latte once. The owner fixed it himself. | 7.4 s |
+| 6 | endcard | Follow for more *cafe life* | Tag an owner who won a guest back. Follow for more cafe life. | 5.4 s |
 
 ## Fact notes
 
-- No statistics. A story about the cast: Ivan, the recurring reviewer, and Roma Tom. Days and
-  the three months are story details.
+- No statistics. A story about the cast: Roma Tom and Ivan, the recurring reviewer. The days,
+  weeks and "every Tuesday" are story details, not data.
 
 ## Post caption
 
-Monday, Ivan left us one star: "My latte was cold." Roma Tom replied the same day: you're right, sorry, your next one's on me. Ivan came back Friday. Three months later his stamp card is full. A one-star review is a guest who still cares enough to tell you.
+Ivan's latte was cold, so he left one star. Roma Tom could have argued. Instead he wrote back: you're right, I'm sorry, your next latte is on me, and I'll make it myself. A week later Ivan came back. Three months later he's in every Tuesday, and his review says five stars. Tag an owner who won a guest back.
 
-#cafelife #cafeowner #customerservice #reviews #smallbusiness
+#cafelife #cafeowner #googlereviews #smallbusiness #customerservice
