@@ -1,0 +1,91 @@
+{
+  "title": "You Finally Take a Day Off",
+  "cover": {
+    "hero": "host"
+  },
+  "background": "butter",
+  "output": "video.mp4",
+  "mix": {
+    "pad": "drift"
+  },
+  "scenes": [
+    {
+      "type": "./hook.js",
+      "duration": 4,
+      "peek": false,
+      "say": "Day off. Phone on silent. Eleven missed calls.",
+      "props": {
+        "label": "OWNER LIFE",
+        "line": "Day off. *11 missed calls.*",
+        "calls": "11"
+      }
+    },
+    {
+      "type": "chat",
+      "duration": 6,
+      "say": "It's Dev. Not an emergency, but where's the spare key? Also the dishwasher's beeping. Found the key! Enjoy your day off.",
+      "props": {
+        "caption": "Call number *eleven*",
+        "contact": "Dev",
+        "status": "LINE COOK",
+        "messages": [
+          {
+            "from": "them",
+            "text": "Not an emergency but"
+          },
+          {
+            "from": "them",
+            "text": "where's the spare key"
+          },
+          {
+            "from": "them",
+            "text": "also the dishwasher is beeping"
+          },
+          {
+            "from": "them",
+            "text": "FOUND THE KEY"
+          },
+          {
+            "from": "them",
+            "text": "enjoy your day off!!"
+          }
+        ]
+      }
+    },
+    {
+      "type": "day",
+      "duration": 5,
+      "say": "Nine, phone on silent. Nine oh four, one quick look. Ten thirty, eleven missed calls. Eleven, a drive past the cafe, just to see.",
+      "props": {
+        "caption": "The day off, *really*",
+        "steps": [
+          {
+            "time": "9:00",
+            "label": "Phone on silent"
+          },
+          {
+            "time": "9:04",
+            "label": "Check it, just once"
+          },
+          {
+            "time": "10:30",
+            "label": "11 missed calls"
+          },
+          {
+            "time": "11:00",
+            "label": "Drive past the cafe"
+          }
+        ],
+        "highlight": 3
+      }
+    },
+    {
+      "type": "endcard",
+      "duration": 3,
+      "say": "Tag the owner who needs a real day off. Follow for more cafe life.",
+      "props": {
+        "cta": "Follow for more *cafe life*"
+      }
+    }
+  ]
+}
