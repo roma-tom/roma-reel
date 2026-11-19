@@ -1,0 +1,98 @@
+{
+  "title": "Card Fees: Add a Surcharge or Raise Prices?",
+  "cover": {
+    "hero": "tomato",
+    "name": "Jess",
+    "kicker": "CAFE OWNERS",
+    "headline": "Wait. What's this *fee*?"
+  },
+  "background": "mint",
+  "output": "video.mp4",
+  "mix": {
+    "pad": "mellow"
+  },
+  "scenes": [
+    {
+      "type": "./hook.js",
+      "duration": 3.2,
+      "speaker": "Jess",
+      "peek": false,
+      "say": "Wait. What's this extra fee on my check?",
+      "props": {
+        "label": "CAFE OWNERS",
+        "line": "Wait. What's this *fee*?",
+        "name": "Jess",
+        "items": [
+          {
+            "label": "Latte",
+            "amount": 5.0
+          },
+          {
+            "label": "Muffin",
+            "amount": 3.5
+          }
+        ],
+        "fee": {
+          "label": "Card fee",
+          "amount": 0.26
+        }
+      }
+    },
+    {
+      "type": "jar",
+      "duration": 5,
+      "say": "Say your cafe takes forty thousand dollars a month on cards. At three percent, that's twelve hundred dollars a month, or fourteen thousand four hundred a year.",
+      "props": {
+        "caption": "Card fees *add up*",
+        "lines": [
+          "$40,000 a month on cards",
+          "× 3% in fees",
+          "× 12 months"
+        ],
+        "total": 14400,
+        "label": "a year in fees"
+      }
+    },
+    {
+      "type": "versus",
+      "duration": 5,
+      "say": "You can pass it on as a surcharge, or nudge your prices up. On a five dollar latte, both are about fifteen cents. Only one feels like a fee.",
+      "props": {
+        "caption": "Same 15¢, *two* ways",
+        "left": {
+          "name": "Jess",
+          "label": "Surcharge",
+          "value": "+15¢",
+          "note": "a fee on the check"
+        },
+        "right": {
+          "name": "Roma Tom",
+          "label": "Prices up",
+          "value": "+15¢",
+          "note": "built into the latte"
+        },
+        "winner": "right"
+      }
+    },
+    {
+      "type": "fix",
+      "duration": 5,
+      "say": "If you do add a surcharge: never on debit cards, three percent at most, and a sign at the door. Some states ban it, so check yours.",
+      "props": {
+        "title": "If you add one",
+        "steps": [
+          "Never on debit cards",
+          "3% at most",
+          "A sign at the door"
+        ],
+        "caption": "Check your *state's rules*"
+      }
+    },
+    {
+      "type": "endcard",
+      "duration": 2.6,
+      "say": "Follow for more owner tips.",
+      "props": {}
+    }
+  ]
+}

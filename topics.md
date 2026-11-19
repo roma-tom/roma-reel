@@ -22,7 +22,6 @@ behind a non-advice topic in the order. Topics without a hook idea need one befo
 
 ## Up next
 
-- [ ] Card surcharges: pass the fee on, or absorb it? [advice] Hook: (guest) "Wait. What's this extra fee on my check?" (receipt, scale)
 - [ ] Why does a free sample sell more than a discount? [advice] Hook: "Everyone reaches for a discount. A free taste usually sells more." (myth, versus)
 - [ ] Hire for attitude or for experience? [advice] Hook: "Lots of experience and a good hire sound like the same thing. Often they're not." (scale, myth)
 - [ ] What your regulars' orders say about them [guests] Hook: "Tell me your usual and I'll tell you who you are." (regulars, countdown)
@@ -130,6 +129,7 @@ Made as videos:
 - [x] Which earns more: the cheapest thing on your menu or the priciest? (`videos/cookie-or-plate`)
 - [x] Should you pay a bit above minimum wage to keep staff? (`videos/above-minimum-wage`)
 - [x] The one-star guest who became a regular (`videos/one-star-regular`)
+- [x] Card surcharges: pass the fee on, or absorb it? (`videos/card-surcharge`)
 
 Examples in the style guide:
 
