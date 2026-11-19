@@ -25,7 +25,6 @@ behind a non-advice topic in the order. Topics without a hook idea need one befo
 - [ ] Why does a free sample sell more than a discount? [advice] Hook: "Everyone reaches for a discount. A free taste usually sells more." (myth, versus)
 - [ ] Where does your $5 latte actually go? [advice] Hook: "Five dollars a latte. Guess how much you keep." (receipt, plate)
 - [ ] Should you open on Mondays? [advice] Hook: "Seven days a week sounds like more money. Not always." (calendar, receipt)
-- [ ] First in, first out: how do you stop throwing food away? [advice] Hook: "[Weekly number] dollars of food, in the trash, every week." (jar, fix)
 - [ ] Delivery app or your own ordering: how much do you keep? [advice] Hook: "Same order, same price. You keep very different money." (versus, receipt)
 - [ ] How many times can you turn every table on a busy night? [quiz] Hook: "Guess how many times one table turns on a Friday night." (floor, receipt)
 - [ ] How do you handle allergies without slowing service? [advice] Hook: (guest) "Is there any nut in this?" (tickets, fix)
@@ -133,6 +132,7 @@ Made as videos:
 - [x] You finally take a day off (`videos/day-off`)
 - [x] How do you run a five-minute pre-shift huddle? (`videos/pre-shift-huddle`)
 - [x] To the owner who opened today on four hours of sleep (`videos/four-hours-sleep`)
+- [x] First in, first out: how do you stop throwing food away? (`videos/first-in-first-out`)
 
 Examples in the style guide:
 
