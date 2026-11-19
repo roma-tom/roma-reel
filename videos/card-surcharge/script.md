@@ -1,43 +1,32 @@
 # card-surcharge
 
-**Kind:** advice (money)
-**Question:** Card fees: pass them on to guests, or absorb them?
-**Background:** mint, pad: mellow. **Length:** about 36 s
+**Kind:** advice
+**Question:** Card surcharges: pass the fee on to guests, or absorb it?
+**Background:** mint, pad: mellow. **Length:** about 38 s
 
 ## Scenes
 
 | # | Template | On screen | Says | Time |
 | --- | --- | --- | --- | --- |
-| 1 | ./hook.js | Leo's check unrolls: Lunch $12.00 / Card fee 3% $0.36 / Total $12.36. The fee line gets circled in red and Leo jolts. "Wait. *What's this fee?*" | (Leo) Wait. What's this extra fee on my check? | 4.0 s |
-| 2 | scale | Thirty-six cents, *one surprise*: "A surprised guest" outweighs "36¢ fee". "The surprise *weighs more*" | Say lunch is twelve dollars. A three percent card fee adds thirty-six cents. Tiny money. But the surprise weighs more than the cents. | 9.9 s |
-| 3 | myth | Myth: You can add a card fee to any check. Fact: Never on debit, Visa caps it at 3%, some states ban it. | And card fees come with rules. Never on debit cards. Visa caps them at three percent. And a few states ban them altogether. | 9.5 s |
-| 4 | fix | Pass it on, kindly: Build it into menu prices / Fee? Put a sign at the door / Never charge it on debit | The easy way: build card costs into your menu prices. If you do add a fee, put a sign at the door. And never charge it on debit. | 9.8 s |
+| 1 | ./hook.js | Jess's check slides out of its holder: Latte $5.00, Muffin $3.50, then "Card fee $0.26" stamps in rose and gets circled; Jess jumps back in shock. "CAFE OWNERS" / "Wait. What's this *fee*?" | (Jess) Wait. What's this extra fee on my check? | 3.2 s |
+| 2 | jar | Card fees *add up*: $40,000 a month on cards / × 3% in fees / × 12 months = $14,400 a year in fees | Say your cafe takes forty thousand dollars a month on cards. At three percent, that's twelve hundred dollars a month, or fourteen thousand four hundred a year. | 11.5 s |
+| 3 | versus | Same 15¢, *two* ways: Surcharge +15¢ (a fee on the check) vs Prices up +15¢ (built into the latte); prices up wins | You can pass it on as a surcharge, or nudge your prices up. On a five dollar latte, both are about fifteen cents. Only one feels like a fee. | 11.1 s |
+| 4 | fix | Check your *state's rules*. If you add one: Never on debit cards / 3% at most / A sign at the door | If you do add a surcharge: never on debit cards, three percent at most, and a sign at the door. Some states ban it, so check yours. | 9.7 s |
 | 5 | endcard | Follow for more *owner* tips | Follow for more owner tips. | 3 s |
 
 ## Fact notes
 
-- **Example figures** (said as "Say…"): a $12 lunch and a 3% fee: $12 × 0.03 = $0.36, total
-  $12.36. 3% is in the range card processing typically costs a small business and matches
-  Visa's cap.
-- **"Never on debit cards":** card network rules don't allow surcharges on debit or prepaid
-  cards, even where credit surcharges are legal; some states (for example Texas and Maine) also
-  ban it by law.
-- **"Visa caps them at three percent":** Visa lowered its maximum credit card surcharge from 4%
-  to 3% in April 2023, and a surcharge can't exceed the merchant's actual cost of acceptance.
-  (Mastercard's cap is 4%.)
-- **"A few states ban them altogether":** Connecticut, Massachusetts and Maine are commonly
-  listed as banning credit card surcharges; lists vary, so the line says "a few states".
-- **"Put a sign at the door":** card network rules require surcharges to be disclosed at the
-  entrance and at checkout, and shown on the receipt.
-- Sources (summaries of network rules and state laws, checked November 2026):
-  https://www.nickel.com/surcharge-laws ,
-  https://lifelongpos.com/resources/blog/visa-surcharge-rules-2026-compliance-guide ,
-  https://www.nav.com/blog/can-a-business-charge-a-credit-card-fee/ . Not legal advice; the
-  video points owners to the simple option (prices) and the basic rules.
-- "The surprise weighs more than the cents" is an opinion, said as one; no guest statistic.
+- **Example figures:** $40,000 a month in card sales is an example cafe, framed with "Say your cafe…".
+- **3% card fee:** US card processing typically runs about 1.5% to 3.5% of the sale; 3% is a round, common figure. $40,000 × 3% = $1,200 a month; × 12 = $14,400 a year.
+- **Hook check:** $5.00 + $3.50 = $8.50; 3% of $8.50 = $0.255, shown as $0.26.
+- **15 cents on a latte:** 3% of $5.00 = $0.15, the same whether it's a surcharge or a price rise.
+- **Never on debit cards:** card network rules don't allow surcharges on debit or prepaid cards, even when run as credit (Visa and Mastercard merchant rules; see the Visa US surcharging guidance and summaries such as https://www.katalystos.com/blog/is-credit-card-surcharging-legal-in-your-state).
+- **3% at most:** Visa caps US credit card surcharges at 3% (or the merchant's actual cost, if lower); Mastercard's cap is higher but in practice merchants keep to Visa's. Networks and the processor also need notice ahead of time.
+- **A sign at the door:** the network rules require the surcharge to be disclosed at the entrance and at the point of sale, and shown on the receipt.
+- **Some states ban it:** state rules differ and change (for example Connecticut bans credit card surcharges, Colorado caps them at 2%); sources disagree on the full list in 2026, so the line says "check yours" rather than naming states.
 
 ## Post caption
 
-Lunch is $12. A 3% card fee adds 36 cents. Tiny money, but the surprise on the check weighs more than the cents. And card fees have rules: never on debit, Visa caps them at 3%, and a few states ban them. The easy way is to build card costs into your menu prices. If you do add a fee, put a sign at the door.
+A card fee on the check is the fastest way to surprise a guest. Say your cafe takes $40,000 a month on cards. At 3%, that's $1,200 a month, or $14,400 a year. You can pass it on as a surcharge, or nudge your prices up. On a $5 latte both are about 15 cents, but only one feels like a fee. If you do add a surcharge: never on debit cards, 3% at most, and a sign at the door. Some states ban it, so check yours first.
 
-#cardfees #restaurantowner #cafeowner #smallbusiness #pricing
+#cafeowner #restaurantowner #creditcardfees #smallbusiness #cafebusiness
