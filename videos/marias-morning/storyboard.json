@@ -1,0 +1,77 @@
+{
+  "title": "A Morning in the Life of a Regular",
+  "cover": {
+    "hero": "tomato",
+    "name": "Maria"
+  },
+  "background": "butter",
+  "output": "video.mp4",
+  "mix": {
+    "pad": "sunny"
+  },
+  "scenes": [
+    {
+      "type": "./hook.js",
+      "duration": 4,
+      "peek": false,
+      "speaker": "Maria",
+      "say": "Seven fifteen. Same table. Same oat latte.",
+      "props": {
+        "label": "A REGULAR'S MORNING",
+        "line": "7:15. *Same table. Same latte.*"
+      }
+    },
+    {
+      "type": "day",
+      "duration": 5,
+      "speaker": "Maria",
+      "say": "Seven fifteen, in. Seven sixteen, latte's on the table. Seven thirty, the crossword. Eight, bye, Dev. Eight oh five, back for a muffin.",
+      "props": {
+        "caption": "Maria's *morning*",
+        "steps": [
+          {
+            "time": "7:15",
+            "label": "Walk in"
+          },
+          {
+            "time": "7:16",
+            "label": "Latte, already made"
+          },
+          {
+            "time": "7:30",
+            "label": "The crossword"
+          },
+          {
+            "time": "8:00",
+            "label": "Bye, Dev!"
+          },
+          {
+            "time": "8:05",
+            "label": "Back for a muffin"
+          }
+        ],
+        "highlight": 1,
+        "host": "Maria"
+      }
+    },
+    {
+      "type": "quote",
+      "duration": 4.5,
+      "speaker": "Maria",
+      "say": "I could make coffee at home. I don't come here for the coffee.",
+      "props": {
+        "name": "Maria",
+        "role": "regular, three years",
+        "quote": "I don't come here *for the coffee*."
+      }
+    },
+    {
+      "type": "endcard",
+      "duration": 3,
+      "say": "Tag your Maria. Follow for more cafe life.",
+      "props": {
+        "cta": "Follow for more *cafe life*"
+      }
+    }
+  ]
+}
