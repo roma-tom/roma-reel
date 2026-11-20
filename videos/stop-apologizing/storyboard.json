@@ -1,0 +1,27 @@
+{
+  "title": "Stop Apologizing for Your Prices",
+  "cover": { "hero": "host" },
+  "background": "mint",
+  "output": "video.mp4",
+  "mix": { "pad": "sway" },
+  "scenes": [
+    { "type": "./hook.js", "duration": 4, "peek": false,
+      "say": "Sorry, prices went up again. Stop saying that.",
+      "props": { "label": "HOT TAKE", "line": "Stop saying *sorry* for your prices.", "sorry": "Sorry!" } },
+    { "type": "scale", "duration": 4.5, "peek": false,
+      "say": "Saying sorry tells guests the price is a mistake. Saying what it buys tells them it's worth it.",
+      "props": { "caption": "What guests *hear*",
+        "left": { "label": "\"Sorry, it went up\"", "weight": 1 },
+        "right": { "label": "\"Local milk, fresh daily\"", "weight": 3 },
+        "verdict": "Explain it. *Don't apologize.*" } },
+    { "type": "pricetag", "duration": 4.5,
+      "say": "The flat white went from four fifty to four eighty. You don't owe anyone an apology for paying your staff and your rent.",
+      "props": { "caption": "Prices go up. *That's okay.*",
+        "item": "Flat white", "from": "$4.50", "to": "$4.80",
+        "note": "staff, rent and milk all *went up too*" } },
+    { "type": "quote", "duration": 4.5,
+      "say": "So say it once, say it kindly, and stand behind it. Agree? Tell me in the comments.",
+      "props": { "name": "Roma Tom", "role": "owner, no longer sorry", "quote": "Say it once. *Stand behind it.*" } },
+    { "type": "endcard", "duration": 2.6, "say": "Follow for more owner tips.", "props": {} }
+  ]
+}
