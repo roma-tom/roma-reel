@@ -30,7 +30,6 @@ behind a non-advice topic in the order. Topics without a hook idea need one befo
 - [ ] How do you handle allergies without slowing service? [advice] Hook: (guest) "Is there any nut in this?" (tickets, fix)
 - [ ] A family of five just walked in [relatable] Hook: "Two high chairs, one stroller, zero free tables." (versus, countdown)
 - [ ] How should you price a catering order? [advice] Hook: "Price catering like a big table and you'll lose money." (receipt, fix)
-- [ ] The supplier calls about a small price change [relatable] Hook: (Sam) "Quick heads up, just a small price change." (pricetag, chat, receipt)
 - [ ] Are you staffing for the rush, or for the whole day? [advice] Hook: "Same number of staff all day? That's paying for the quiet hours." (rush, rota)
 - [ ] A morning in the life of a regular [day] Hook: (Maria) "Seven fifteen. Same table. Same oat latte." (day, regulars)
 - [ ] Is your menu board readable from the door? [advice] Hook: (guest) "Sorry, what does the board say?" (menu, fix)
@@ -133,6 +132,7 @@ Made as videos:
 - [x] How do you run a five-minute pre-shift huddle? (`videos/pre-shift-huddle`)
 - [x] To the owner who opened today on four hours of sleep (`videos/four-hours-sleep`)
 - [x] First in, first out: how do you stop throwing food away? (`videos/first-in-first-out`)
+- [x] The supplier calls about a small price change (`videos/small-price-change`)
 
 Examples in the style guide:
 

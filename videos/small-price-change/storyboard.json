@@ -1,0 +1,30 @@
+{
+  "title": "When the Supplier Calls About a Small Price Change",
+  "cover": { "hero": "tomato", "name": "Sam" },
+  "background": "butter",
+  "output": "video.mp4",
+  "mix": { "pad": "cosy" },
+  "scenes": [
+    { "type": "./hook.js", "duration": 4, "peek": false, "speaker": "Sam",
+      "say": "Quick heads up. Just a small price change.",
+      "props": { "label": "CAFE LIFE", "line": "*Just a small* price change.", "quote": "Quick heads up!", "prices": ["$28", "$31", "$34"] } },
+    { "type": "chat", "duration": 6,
+      "say": "Sam, the supplier. Flour's going up a little. How little? Like, a little a little. Sam. Also butter. And the cups.",
+      "props": { "caption": "Sam, the supplier, *7:02 am*",
+        "contact": "Sam", "status": "SUPPLIER",
+        "messages": [
+          { "from": "them", "text": "Morning! Flour's going up a little" },
+          { "from": "me", "text": "How little?" },
+          { "from": "them", "text": "Like a little a little" },
+          { "from": "me", "text": "Sam." },
+          { "from": "them", "text": "Also butter. And the cups." }
+        ] } },
+    { "type": "countdown", "duration": 4.5,
+      "say": "What owners hear. Small change means more than last time. Just this month means forever. And everyone's going up? Means you're next.",
+      "props": { "caption": "Supplier, *translated*",
+        "items": ["\"Small change\" = more than last time", "\"Just this month\" = forever", "\"Everyone's going up\" = you're next"] } },
+    { "type": "endcard", "duration": 3,
+      "say": "Tag an owner who got this call this week. Follow for more cafe life.",
+      "props": { "cta": "Follow for more *cafe life*" } }
+  ]
+}
