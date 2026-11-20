@@ -24,7 +24,6 @@ behind a non-advice topic in the order. Topics without a hook idea need one befo
 
 - [ ] Why does a free sample sell more than a discount? [advice] Hook: "Everyone reaches for a discount. A free taste usually sells more." (myth, versus)
 - [ ] Hire for attitude or for experience? [advice] Hook: "Lots of experience and a good hire sound like the same thing. Often they're not." (scale, myth)
-- [ ] What your regulars' orders say about them [guests] Hook: "Tell me your usual and I'll tell you who you are." (regulars, countdown)
 - [ ] Where does your $5 latte actually go? [advice] Hook: "Five dollars a latte. Guess how much you keep." (receipt, plate)
 - [ ] Rate these cafe crimes [relatable] Hook: "Rate these cafe crimes from one to ten. Number three is unforgivable." (countdown, gauge)
 - [ ] Should you open on Mondays? [advice] Hook: "Seven days a week sounds like more money. Not always." (calendar, receipt)
@@ -130,6 +129,7 @@ Made as videos:
 - [x] Should you pay a bit above minimum wage to keep staff? (`videos/above-minimum-wage`)
 - [x] The one-star guest who became a regular (`videos/one-star-regular`)
 - [x] Card surcharges: pass the fee on, or absorb it? (`videos/card-surcharge`)
+- [x] What your regulars' orders say about them (`videos/regulars-orders`)
 
 Examples in the style guide:
 
