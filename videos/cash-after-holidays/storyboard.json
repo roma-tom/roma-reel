@@ -1,0 +1,88 @@
+{
+  "title": "Why Cash Gets Tight After the Holidays",
+  "cover": {
+    "hero": "headline"
+  },
+  "background": "butter",
+  "output": "video.mp4",
+  "mix": {
+    "pad": "drift"
+  },
+  "scenes": [
+    {
+      "type": "./hook.js",
+      "duration": 4.5,
+      "peek": false,
+      "say": "December is your best month. It can set up your worst one.",
+      "props": {
+        "label": "CASH FLOW",
+        "line": "Your best month can set up *your worst*.",
+        "dec": "DEC",
+        "jan": "JAN",
+        "bills": [
+          "RENT",
+          "PAYROLL",
+          "TAXES"
+        ]
+      }
+    },
+    {
+      "type": "trend",
+      "duration": 5,
+      "say": "Say December brings in forty thousand dollars. January? Twenty-four. But rent, payroll and the December bills all land the same week.",
+      "props": {
+        "caption": "Sales, *month by month*",
+        "label": "SALES, THOUSANDS",
+        "labels": [
+          "SEP",
+          "OCT",
+          "NOV",
+          "DEC",
+          "JAN",
+          "FEB"
+        ],
+        "values": [
+          30,
+          31,
+          34,
+          40,
+          24,
+          26
+        ],
+        "note": {
+          "at": 4,
+          "text": "The January dip"
+        }
+      }
+    },
+    {
+      "type": "myth",
+      "duration": 5,
+      "say": "A great December feels like extra money. Most of it is next month's rent and last month's bills.",
+      "props": {
+        "caption": "Myth or *fact*?",
+        "myth": "A big December means money to spare",
+        "fact": "Much of it is already owed in January"
+      }
+    },
+    {
+      "type": "fix",
+      "duration": 4.5,
+      "say": "So: set aside some of December's cash before you touch it. Pay the December bills in December. And plan a reason to visit in January.",
+      "props": {
+        "title": "Before January",
+        "steps": [
+          "Set aside part of December",
+          "Pay December's bills in December",
+          "Plan a January reason to visit"
+        ]
+      }
+    },
+    {
+      "type": "endcard",
+      "duration": 2.6,
+      "say": "Follow for more owner tips.",
+      "props": {}
+    }
+  ]
+}

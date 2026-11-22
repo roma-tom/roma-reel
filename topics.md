@@ -34,7 +34,6 @@ behind a non-advice topic in the order. Topics without a hook idea need one befo
 - [ ] Should you charge for to-go cups? [advice] Hook: "A free cup and a free cup of coffee aren't so different." (pricetag, versus)
 - [ ] How do you deal with a guest who is never happy? [advice] Hook: (guest) "It's fine. It's just not how I like it." (quote, fix)
 - [ ] Can you close down 20 minutes faster? [advice] Hook: "Twenty minutes a night is two hours a week." (day, countdown)
-- [ ] Why does cash get tight after the holidays? [advice] Hook: "Your best month can set up your worst one." (trend, calendar)
 - [ ] Should you offer a smaller, cheaper size? [advice] Hook: "A smaller size can raise your average order." (menu, pricetag)
 - [ ] How do you plan a seasonal menu change? [advice] (calendar, menu)
 - [ ] How do you read your sales report in five minutes? [advice] (trend, countdown)
@@ -134,6 +133,7 @@ Made as videos:
 - [x] Is your menu board readable from the door? (`videos/menu-board-door`)
 - [x] Stop apologizing for your prices (`videos/stop-apologizing`)
 - [x] Guests judge your kitchen by your bathroom (`videos/the-bathroom`)
+- [x] Why does cash get tight after the holidays? (`videos/cash-after-holidays`)
 
 Examples in the style guide:
 
