@@ -32,7 +32,6 @@ behind a non-advice topic in the order. Topics without a hook idea need one befo
 - [ ] How should you price a catering order? [advice] Hook: "Price catering like a big table and you'll lose money." (receipt, fix)
 - [ ] Are you staffing for the rush, or for the whole day? [advice] Hook: "Same number of staff all day? That's paying for the quiet hours." (rush, rota)
 - [ ] Should you charge for to-go cups? [advice] Hook: "A free cup and a free cup of coffee aren't so different." (pricetag, versus)
-- [ ] Guests judge your kitchen by your bathroom [guests] Hook: "Guests never see your kitchen. They see your bathroom." (quote, myth)
 - [ ] How do you deal with a guest who is never happy? [advice] Hook: (guest) "It's fine. It's just not how I like it." (quote, fix)
 - [ ] Can you close down 20 minutes faster? [advice] Hook: "Twenty minutes a night is two hours a week." (day, countdown)
 - [ ] Why does cash get tight after the holidays? [advice] Hook: "Your best month can set up your worst one." (trend, calendar)
@@ -134,6 +133,7 @@ Made as videos:
 - [x] A morning in the life of a regular (`videos/marias-morning`)
 - [x] Is your menu board readable from the door? (`videos/menu-board-door`)
 - [x] Stop apologizing for your prices (`videos/stop-apologizing`)
+- [x] Guests judge your kitchen by your bathroom (`videos/the-bathroom`)
 
 Examples in the style guide:
 

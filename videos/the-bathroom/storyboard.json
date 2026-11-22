@@ -1,0 +1,25 @@
+{
+  "title": "Guests Judge Your Kitchen by Your Bathroom",
+  "cover": { "hero": "tomato", "name": "Ivan" },
+  "background": "sky",
+  "output": "video.mp4",
+  "mix": { "pad": "mellow" },
+  "scenes": [
+    { "type": "./hook.js", "duration": 4, "peek": false,
+      "say": "Guests never see your kitchen. They see your bathroom.",
+      "props": { "label": "GUESTS", "line": "Guests never see your *kitchen*." } },
+    { "type": "quote", "duration": 4.5, "speaker": "Ivan",
+      "say": "If the bathroom looks like that, what does the kitchen look like?",
+      "props": { "name": "Ivan", "role": "reviewer, first visit", "quote": "If the bathroom's like that, *the kitchen…*" } },
+    { "type": "myth", "duration": 5,
+      "say": "The kitchen can be spotless. But the bathroom is the only back room a guest ever walks into, so it's the one they judge.",
+      "props": { "caption": "Myth or *fact*?",
+        "myth": "Guests only care about the food",
+        "fact": "The bathroom is the only back room they ever see" } },
+    { "type": "fix", "duration": 4.5,
+      "say": "So: check it every hour, and put a checklist on the door. Keep spare paper towels and soap right there. And a little plant or a candle goes a long way.",
+      "props": { "title": "Fix the bathroom",
+        "steps": ["Check it hourly, sign the list", "Spare towels and soap in reach", "A plant or candle helps"] } },
+    { "type": "endcard", "duration": 2.6, "say": "Follow for more owner tips.", "props": {} }
+  ]
+}
