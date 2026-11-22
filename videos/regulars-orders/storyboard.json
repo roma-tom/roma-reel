@@ -1,0 +1,118 @@
+{
+  "title": "What Your Regulars' Orders Say About Them",
+  "cover": {
+    "hero": "crowd",
+    "names": [
+      "Maria",
+      "Ivan",
+      "Dev"
+    ]
+  },
+  "background": "blush",
+  "output": "video.mp4",
+  "mix": {
+    "pad": "cosy"
+  },
+  "scenes": [
+    {
+      "type": "./hook.js",
+      "duration": 3.2,
+      "peek": false,
+      "say": "Tell me your usual, and I'll tell you who you are.",
+      "props": {
+        "label": "THE USUAL",
+        "line": "Your usual says *who you are*.",
+        "cups": [
+          "oat latte",
+          "black, no lid",
+          "iced, it's snowing"
+        ]
+      }
+    },
+    {
+      "type": "countdown",
+      "duration": 6,
+      "say": "Iced coffee in a snowstorm? Fearless. Black coffee, no lid? Up before you were. A six-word order? Has a system for everything. And whatever you recommend? Trusts you completely.",
+      "props": {
+        "caption": "The usual, *decoded*",
+        "items": [
+          "Iced coffee in a snowstorm: fearless",
+          "Black, no lid: up before you",
+          "Six-word order: has a system",
+          "Whatever you recommend: trusts you"
+        ]
+      },
+      "peek": false
+    },
+    {
+      "type": "regulars",
+      "duration": 4.5,
+      "say": "Run a cafe long enough and you know everyone by their order, not their name.",
+      "props": {
+        "caption": "You know them by *their order*",
+        "guests": [
+          {
+            "name": "Maria",
+            "back": true
+          },
+          {
+            "name": "Ivan",
+            "back": true
+          },
+          {
+            "name": "Dev",
+            "back": true
+          },
+          {
+            "name": "Ana",
+            "back": true
+          },
+          {
+            "name": "Sam",
+            "back": true
+          },
+          {
+            "name": "Priya",
+            "back": true
+          },
+          {
+            "name": "Leo",
+            "back": true
+          },
+          {
+            "name": "Kim",
+            "back": true
+          },
+          {
+            "name": "Jo",
+            "back": true
+          }
+        ],
+        "stat": {
+          "value": "Every usual",
+          "label": "by heart"
+        }
+      },
+      "peek": false
+    },
+    {
+      "type": "quote",
+      "duration": 4.5,
+      "speaker": "Maria",
+      "say": "Wait. You started my oat latte before I even ordered?",
+      "props": {
+        "name": "Maria",
+        "role": "the regular",
+        "quote": "You started my latte *before I ordered*?"
+      }
+    },
+    {
+      "type": "endcard",
+      "duration": 3,
+      "say": "What's your usual? Tell us in the comments. Follow for more cafe life.",
+      "props": {
+        "cta": "Follow for more *cafe life*"
+      }
+    }
+  ]
+}

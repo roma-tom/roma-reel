@@ -118,6 +118,7 @@ Made as videos:
 - [x] The one-star guest who became a regular, a second take (`videos/one-star-regular`)
 - [x] Hire for attitude or for experience? (`videos/attitude-or-experience`)
 - [x] What your regulars' orders say about them (`videos/your-usual`)
+- [x] What your regulars' orders say about them, a second take (`videos/regulars-orders`)
 - [x] Card surcharges: pass the fee on, or absorb it? (`videos/card-surcharge-leo`)
 - [x] Card surcharges: pass the fee on, or absorb it, a second take (`videos/card-surcharge`)
 - [x] Rate these cafe crimes (`videos/cafe-crimes`)
