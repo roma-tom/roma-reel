@@ -22,7 +22,6 @@ behind a non-advice topic in the order. Topics without a hook idea need one befo
 
 ## Up next
 
-- [ ] Why does a free sample sell more than a discount? [advice] Hook: "Everyone reaches for a discount. A free taste usually sells more." (myth, versus)
 - [ ] Where does your $5 latte actually go? [advice] Hook: "Five dollars a latte. Guess how much you keep." (receipt, plate)
 - [ ] Should you open on Mondays? [advice] Hook: "Seven days a week sounds like more money. Not always." (calendar, receipt)
 - [ ] Delivery app or your own ordering: how much do you keep? [advice] Hook: "Same order, same price. You keep very different money." (versus, receipt)
@@ -134,6 +133,7 @@ Made as videos:
 - [x] Stop apologizing for your prices (`videos/stop-apologizing`)
 - [x] Guests judge your kitchen by your bathroom (`videos/the-bathroom`)
 - [x] Why does cash get tight after the holidays? (`videos/cash-after-holidays`)
+- [x] Why does a free sample sell more than a discount? (`videos/free-sample`)
 
 Examples in the style guide:
 

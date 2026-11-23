@@ -1,0 +1,89 @@
+{
+  "title": "Free Samples Beat Discounts. Here's Why",
+  "cover": {
+    "hero": "headline",
+    "kicker": "CAFE OWNERS",
+    "headline": "Skip the *discount*. Offer a taste."
+  },
+  "background": "sky",
+  "output": "video.mp4",
+  "mix": {
+    "pad": "sunny"
+  },
+  "scenes": [
+    {
+      "type": "./hook.js",
+      "duration": 3.2,
+      "say": "Everyone reaches for a discount. A free taste usually sells more.",
+      "props": {
+        "label": "CAFE OWNERS",
+        "line": "Skip the *discount*. Offer a taste.",
+        "tag": "20% OFF",
+        "tray": "FREE TASTE",
+        "name": "Maria"
+      },
+      "peek": false
+    },
+    {
+      "type": "versus",
+      "duration": 5,
+      "say": "Say a new pastry is four fifty. Twenty percent off, on a hundred sold, gives away ninety dollars. Ten pastries cut into tastes cost about twelve.",
+      "props": {
+        "caption": "One new pastry, *two* ways",
+        "left": {
+          "name": "Dev",
+          "label": "20% off",
+          "value": "−$90",
+          "note": "100 sold in a week"
+        },
+        "right": {
+          "name": "Maria",
+          "label": "Free tastes",
+          "value": "−$12",
+          "note": "10 pastries, cut in four"
+        },
+        "winner": "right"
+      }
+    },
+    {
+      "type": "quote",
+      "duration": 4.5,
+      "speaker": "Maria",
+      "say": "I'd never have ordered it. Then I tried a bite.",
+      "props": {
+        "name": "Maria",
+        "role": "regular",
+        "quote": "I'd never have ordered it. Then I *tried a bite*."
+      }
+    },
+    {
+      "type": "myth",
+      "duration": 5,
+      "say": "Discounts teach guests to wait for the next deal. A taste sells at full price.",
+      "props": {
+        "myth": "A discount brings them back",
+        "fact": "Guests learn to wait for the deal. A taste sells at full price."
+      }
+    },
+    {
+      "type": "fix",
+      "duration": 5,
+      "say": "So: sample the new or pricey item. Small bites, by the register. And hand them out yourself.",
+      "props": {
+        "caption": "Sample *smart*",
+        "title": "Free tastes",
+        "steps": [
+          "Pick the new or pricey item",
+          "Small bites, by the register",
+          "Hand them out yourself"
+        ]
+      }
+    },
+    {
+      "type": "endcard",
+      "duration": 2.6,
+      "say": "Follow for more owner tips.",
+      "props": {}
+    }
+  ]
+}
