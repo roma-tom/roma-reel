@@ -1,0 +1,26 @@
+{
+  "title": "How Loud Should the Music Be?",
+  "cover": { "hero": "number", "number": "70 dB", "label": "about as loud as you want to go" },
+  "background": "blush",
+  "output": "video.mp4",
+  "mix": { "pad": "mellow" },
+  "scenes": [
+    { "type": "./hook.js", "duration": 4, "peek": false,
+      "say": "Great playlist. Shame nobody can hear each other.",
+      "props": { "label": "THE ROOM", "line": "Can they hear *each other*?", "words": "How's the job?" } },
+    { "type": "quote", "duration": 4.5, "speaker": "Priya",
+      "say": "Sorry, what? I'll just nod. Next time, let's go somewhere quieter.",
+      "props": { "name": "Priya", "role": "came to catch up", "quote": "Next time, *somewhere quieter*." } },
+    { "type": "gauge", "duration": 5,
+      "say": "Diners rank noise near the top of their complaints. One study found the average Manhattan restaurant at seventy-eight decibels. Around seventy or below, people can still talk.",
+      "props": { "caption": "How loud is *too loud*?",
+        "value": 78, "min": 50, "max": 95, "unit": " dB", "label": "average Manhattan restaurant",
+        "zones": [{ "to": 70, "kind": "good" }, { "to": 76, "kind": "ok" }, { "to": 95, "kind": "bad" }],
+        "verdict": "TOO LOUD TO TALK" } },
+    { "type": "fix", "duration": 4.5,
+      "say": "So: sit at a table and try to talk. Use a free decibel app and aim for seventy or under. And turn it up for the rush, down for the regulars.",
+      "props": { "title": "Set the volume",
+        "steps": ["Sit at a table and try talking", "Check an app: 70 dB or under", "Louder in the rush, softer after"] } },
+    { "type": "endcard", "duration": 2.6, "say": "Follow for more owner tips.", "props": {} }
+  ]
+}

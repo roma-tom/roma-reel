@@ -42,7 +42,6 @@ behind a non-advice topic in the order. Topics without a hook idea need one befo
 - [ ] Should you text guests when their order is ready? [advice] (chat, versus)
 - [ ] Self-order kiosks: friend or foe? [advice] (versus, myth)
 - [ ] Should you answer the phone during the rush? [advice] (rush, scale)
-- [ ] How loud should the music be? [advice] (gauge, quote)
 - [ ] Owner burnout: what should you hand off first? [advice] (countdown, day)
 - [ ] Should you add brunch? [advice] (calendar, rush, receipt)
 - [ ] How do you price your menu on the delivery apps? [advice] (receipt, versus)
@@ -134,6 +133,7 @@ Made as videos:
 - [x] Why does cash get tight after the holidays? (`videos/cash-after-holidays`)
 - [x] Why does a free sample sell more than a discount? (`videos/free-sample`)
 - [x] A family of five just walked in (`videos/family-of-five`)
+- [x] How loud should the music be? (`videos/music-volume`)
 
 Examples in the style guide:
 
