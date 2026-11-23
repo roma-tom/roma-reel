@@ -1,0 +1,22 @@
+{
+  "title": "A Family of Five Just Walked In",
+  "cover": { "hero": "crowd", "names": ["Leo", "Ana", "Sam"] },
+  "background": "paper",
+  "output": "video.mp4",
+  "mix": { "pad": "sway" },
+  "scenes": [
+    { "type": "./hook.js", "duration": 4, "peek": false,
+      "say": "Two high chairs, one stroller, zero free tables.",
+      "props": { "label": "CAFE LIFE", "line": "Family of five. *Zero free tables.*" } },
+    { "type": "countdown", "duration": 5,
+      "say": "What happens next. You push two tables together. You find the crayons. And the big one: somehow, a croissant ends up under every chair.",
+      "props": { "caption": "The next *ten minutes*",
+        "items": ["Push two tables together", "Find the crayons", "Croissant under every chair"] } },
+    { "type": "quote", "duration": 4.5, "speaker": "Leo",
+      "say": "Sorry about the mess. The kids say it's the best cafe in town.",
+      "props": { "name": "Leo", "role": "dad of three, regular now", "quote": "The kids say it's *the best cafe in town*." } },
+    { "type": "endcard", "duration": 3,
+      "say": "Tag a cafe that makes room for families. Follow for more cafe life.",
+      "props": { "cta": "Follow for more *cafe life*" } }
+  ]
+}

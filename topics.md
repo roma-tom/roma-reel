@@ -27,7 +27,6 @@ behind a non-advice topic in the order. Topics without a hook idea need one befo
 - [ ] Delivery app or your own ordering: how much do you keep? [advice] Hook: "Same order, same price. You keep very different money." (versus, receipt)
 - [ ] How many times can you turn every table on a busy night? [quiz] Hook: "Guess how many times one table turns on a Friday night." (floor, receipt)
 - [ ] How do you handle allergies without slowing service? [advice] Hook: (guest) "Is there any nut in this?" (tickets, fix)
-- [ ] A family of five just walked in [relatable] Hook: "Two high chairs, one stroller, zero free tables." (versus, countdown)
 - [ ] How should you price a catering order? [advice] Hook: "Price catering like a big table and you'll lose money." (receipt, fix)
 - [ ] Are you staffing for the rush, or for the whole day? [advice] Hook: "Same number of staff all day? That's paying for the quiet hours." (rush, rota)
 - [ ] Should you charge for to-go cups? [advice] Hook: "A free cup and a free cup of coffee aren't so different." (pricetag, versus)
@@ -134,6 +133,7 @@ Made as videos:
 - [x] Guests judge your kitchen by your bathroom (`videos/the-bathroom`)
 - [x] Why does cash get tight after the holidays? (`videos/cash-after-holidays`)
 - [x] Why does a free sample sell more than a discount? (`videos/free-sample`)
+- [x] A family of five just walked in (`videos/family-of-five`)
 
 Examples in the style guide:
 
