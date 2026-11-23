@@ -1,0 +1,27 @@
+{
+  "title": "Owner Burnout: What Should You Hand Off First?",
+  "cover": { "hero": "host" },
+  "background": "sky",
+  "output": "video.mp4",
+  "mix": { "pad": "warm" },
+  "scenes": [
+    { "type": "./hook.js", "duration": 4, "peek": false,
+      "say": "Doing every job yourself? Drop one. On purpose.",
+      "props": { "label": "OWNER LIFE", "line": "Doing every job? *Drop one.*" } },
+    { "type": "countdown", "duration": 5,
+      "say": "Hand off first what someone else can do almost as well. Opening and closing. Ordering stock. And the big one: the schedule.",
+      "props": { "caption": "Hand these off *first*",
+        "items": ["Opening and closing", "Ordering stock", "Writing the schedule"] } },
+    { "type": "scale", "duration": 4.5, "peek": false,
+      "say": "It won't be done exactly your way. But eighty percent as good, by someone else, beats a hundred percent by an owner who's burnt out.",
+      "props": { "caption": "Done by someone else vs *by you, exhausted*",
+        "left": { "label": "Your way, exhausted", "weight": 1 },
+        "right": { "label": "Ana's way, rested you", "weight": 3 },
+        "verdict": "Good enough *beats burnt out*" } },
+    { "type": "fix", "duration": 4.5,
+      "say": "So: write down how you do it, once. Show them twice, then let them do it. And check in after a week, not every hour.",
+      "props": { "title": "Hand it off well",
+        "steps": ["Write it down once", "Show twice, then let go", "Check in after a week"] } },
+    { "type": "endcard", "duration": 2.6, "say": "Follow for more owner tips.", "props": {} }
+  ]
+}
