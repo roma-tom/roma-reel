@@ -1,0 +1,28 @@
+{
+  "title": "Self-Order Kiosks: Friend or Foe?",
+  "cover": { "hero": "headline" },
+  "background": "blush",
+  "output": "video.mp4",
+  "mix": { "pad": "sunny" },
+  "scenes": [
+    { "type": "./hook.js", "duration": 4, "peek": false,
+      "say": "The self-order kiosk. Friend or foe? Honestly, both.",
+      "props": { "label": "A LITTLE TECH", "line": "The kiosk: *friend or foe*?", "popups": ["ADD A TIP?", "MAKE IT LARGE?", "ADD A COOKIE?"] } },
+    { "type": "versus", "duration": 4.5,
+      "say": "A kiosk is great for the rush and for big orders. But for a regular who wants a hello, a screen is a step backward.",
+      "props": { "caption": "Who it's *good for*",
+        "left": { "name": "Leo", "label": "Rush, big orders", "value": "Faster", "note": "no line at the register" },
+        "right": { "name": "Maria", "label": "Regulars", "value": "Colder", "note": "nobody says hi" },
+        "winner": "left" } },
+    { "type": "myth", "duration": 5,
+      "say": "A kiosk won't replace your team. It changes their job, from typing orders to making drinks and talking to guests.",
+      "props": { "caption": "Myth or *fact*?",
+        "myth": "A kiosk means you need fewer people",
+        "fact": "It moves your team from typing to talking" } },
+    { "type": "fix", "duration": 4.5,
+      "say": "So if you add one, keep a person at the counter too. Keep the screens short, with one upsell, not five. And greet everyone who walks in, kiosk or not.",
+      "props": { "title": "Kiosk, done kindly",
+        "steps": ["Keep a person at the counter", "One upsell, not five", "Greet everyone who walks in"] } },
+    { "type": "endcard", "duration": 2.6, "say": "Follow for more owner tips.", "props": {} }
+  ]
+}

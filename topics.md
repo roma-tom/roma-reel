@@ -40,7 +40,6 @@ behind a non-advice topic in the order. Topics without a hook idea need one befo
 - [ ] Where should the pastry case go? [advice] (floor, fix)
 - [ ] How do you give staff feedback without a fight? [advice] (chat, fix)
 - [ ] Should you text guests when their order is ready? [advice] (chat, versus)
-- [ ] Self-order kiosks: friend or foe? [advice] (versus, myth)
 - [ ] Should you answer the phone during the rush? [advice] (rush, scale)
 - [ ] Should you add brunch? [advice] (calendar, rush, receipt)
 - [ ] How do you price your menu on the delivery apps? [advice] (receipt, versus)
@@ -135,6 +134,7 @@ Made as videos:
 - [x] How loud should the music be? (`videos/music-volume`)
 - [x] Owner burnout: what should you hand off first? (`videos/hand-off-first`)
 - [x] What do you do when someone calls in sick at 6 am? (`videos/sick-at-six`)
+- [x] Self-order kiosks: friend or foe? (`videos/self-order-kiosks`)
 
 Examples in the style guide:
 
