@@ -1,0 +1,118 @@
+{
+  "title": "Rate These Cafe Crimes From One to Ten",
+  "cover": {
+    "hero": "number",
+    "number": "10/10",
+    "label": "unforgivable"
+  },
+  "background": "butter",
+  "output": "video.mp4",
+  "mix": {
+    "pad": "sway"
+  },
+  "scenes": [
+    {
+      "type": "./hook.js",
+      "duration": 3.2,
+      "peek": false,
+      "say": "Rate these cafe crimes from one to ten. The last one is unforgivable.",
+      "props": {
+        "label": "1 TO 10",
+        "line": "Rate these *cafe crimes*.",
+        "scores": [
+          "6",
+          "8",
+          "10"
+        ]
+      }
+    },
+    {
+      "type": "quote",
+      "duration": 4.5,
+      "say": "Crime one. Ordering at the register while still on a phone call. That's a six.",
+      "props": {
+        "caption": "Crime one: *a six*",
+        "name": "Kim",
+        "role": "on a call at the register",
+        "quote": "Hang on, Mom. What *sizes* do you have?"
+      }
+    },
+    {
+      "type": "chat",
+      "duration": 5,
+      "say": "Crime two. A party of eight walks in two minutes before close. And they want separate checks. Eight out of ten.",
+      "props": {
+        "caption": "Crime two: *an eight*",
+        "contact": "Dev",
+        "status": "LINE COOK",
+        "messages": [
+          {
+            "from": "them",
+            "text": "Party of 8 just walked in"
+          },
+          {
+            "from": "them",
+            "text": "We close in 2 minutes"
+          },
+          {
+            "from": "me",
+            "text": "Tell me you're joking"
+          },
+          {
+            "from": "them",
+            "text": "They want separate checks"
+          }
+        ]
+      }
+    },
+    {
+      "type": "review",
+      "duration": 5.5,
+      "say": "And crime three. A one-star review, for being closed on Thanksgiving.",
+      "props": {
+        "caption": "Crime three",
+        "name": "Brad",
+        "stars": 1,
+        "text": "Drove all the way over and they were CLOSED on Thanksgiving.",
+        "reply": "Our team was home with their families. Happy Thanksgiving! We open Friday at 7.",
+        "owner": "Roma Tom"
+      }
+    },
+    {
+      "type": "gauge",
+      "duration": 4.5,
+      "say": "Ten out of ten. Unforgivable. Your team deserves the day off.",
+      "props": {
+        "caption": "Crime three: *the verdict*",
+        "value": 10,
+        "min": 0,
+        "max": 10,
+        "unit": "",
+        "label": "crime rating",
+        "zones": [
+          {
+            "to": 4,
+            "kind": "good"
+          },
+          {
+            "to": 7,
+            "kind": "ok"
+          },
+          {
+            "to": 10,
+            "kind": "bad"
+          }
+        ],
+        "verdict": "UNFORGIVABLE"
+      }
+    },
+    {
+      "type": "endcard",
+      "duration": 3,
+      "say": "What would you give a ten? Tell us in the comments. Follow for more cafe life.",
+      "props": {
+        "cta": "Follow for more *cafe life*"
+      }
+    }
+  ]
+}
