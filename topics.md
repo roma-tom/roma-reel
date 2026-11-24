@@ -48,7 +48,6 @@ behind a non-advice topic in the order. Topics without a hook idea need one befo
 - [ ] How do you train a new hire in their first week? [advice] (day, fix)
 - [ ] Why should everyone know two stations? [advice] (rota, fix)
 - [ ] How do you win the office lunch crowd? [advice] (rush, fix)
-- [ ] What do you do when someone calls in sick at 6 am? [advice] (chat, rota)
 - [ ] Does a coffee and pastry deal raise the average order? [advice] (receipt, versus)
 - [ ] Should you reply to every review, and does it pay off? [advice] (review, trend)
 - [ ] How long are your ticket times, really? [advice] (tickets, trend)
@@ -135,6 +134,7 @@ Made as videos:
 - [x] A family of five just walked in (`videos/family-of-five`)
 - [x] How loud should the music be? (`videos/music-volume`)
 - [x] Owner burnout: what should you hand off first? (`videos/hand-off-first`)
+- [x] What do you do when someone calls in sick at 6 am? (`videos/sick-at-six`)
 
 Examples in the style guide:
 
