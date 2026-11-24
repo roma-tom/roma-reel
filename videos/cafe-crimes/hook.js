@@ -1,56 +1,68 @@
 // This video's own hook.
 //
-// The idea: Roma Tom as a judge behind the bench, banging a gavel; with each bang a score card
-// flips up, higher each time, and the last one makes him jump.
-// Frame one shows: the gavel already coming down for the first bang.
-// Readable by 0.5 s: "Rate these *cafe crimes*."
-// The open loop: which crimes, and which one is unforgivable?
+// The idea: a panel of three tomato judges sits behind the counter like a talent show and
+// slaps up score paddles one after another, 6, then 8, then Roma Tom slams a 10 in rose and
+// the whole panel gasps: these aren't dance routines being scored, they're cafe crimes.
+// Frame one shows: Maria's paddle already swinging up from under the counter.
+// Readable by 0.5 s: "Rate these *cafe crimes*." (1 TO 10 pill above it).
+// The open loop: which crimes are these, and what earns a ten?
 //
-// props: { label, line, scores: [three numbers as text] }
+// props: { label, line, scores: ['6', '8', '10'] (left, right, middle; the last is the ten) }
 
 const { W, C, kicker, headline, tomato, pen } = require('../../scripts/lib/kit.js');
 const { text } = require('../../scripts/lib/marks.js');
 const S = require('../../scripts/lib/stage.js');
 
-const BANGS = [0.25, 1.15, 2.05], BENCH = 1260, CARDS = [250, 540, 830];
+const TOP = 1400;                         // the judges' counter
+const SEATS = [210, 840, 525];            // Maria, Dev, Roma Tom (the ten comes last, in the middle)
+const NAMES = ['Maria', 'Dev', 'Roma Tom'];
+const UP = [-0.12, 0.4, 0.85];               // when each paddle starts up, in seconds
+const SLAM = UP[2] + 0.28;                // the ten lands
 
-function hook(ctx, theme, t, props, info = {}) {
-  const sec = info.sec ?? t * 4;
-  kicker(ctx, props.label || '', W / 2, 260, { seed: 22101 });
-  headline(ctx, theme, props.line || '', { x: W / 2, y: 330, size: 116, maxW: 860, appear: S.at(sec, 0, 0.2), seed: 22102 });
-
-  // Score cards flipping up after each bang.
-  const scores = props.scores || [];
-  CARDS.forEach((x, i) => {
-    const k = S.pop(sec, BANGS[i] + 0.05, 0.3);
-    if (k <= 0) return;
-    S.popIn(ctx, k, x, 810, () => {
-      pen.shape(ctx, pen.roundRect(x - 100, 610, 200, 200, 18), { fill: i === 2 ? theme.mark : C.card, width: 6, seed: 22110 + i, offset: 0 });
-      text(ctx, scores[i] || '', x, 765, { size: 150, align: 'center', color: i === 2 ? theme.accent : C.ink });
-    });
-  });
-
-  // The judge behind the bench, jumping at the last score.
-  const j = S.jump(sec, BANGS[2] + 0.1, 60);
-  tomato(ctx, 'Roma Tom', 470, 1110 - j.hop, 460, { squash: j.squash, angle: -0.06 });
-  if (sec > BANGS[2] + 0.1) S.reaction(ctx, theme, 'shock', 470, 1060, S.seg(sec, BANGS[2] + 0.1, BANGS[2] + 0.5));
-  pen.shape(ctx, [{ x: 80, y: BENCH }, { x: 1000, y: BENCH - 4 }, { x: 1000, y: 1520 }, { x: 80, y: 1524 }], { fill: C.ink, width: 6, seed: 22120, offset: 0 });
-  pen.line(ctx, [{ x: 120, y: BENCH + 60 }, { x: 960, y: BENCH + 56 }], { width: 5, color: C.muted, seed: 22121 });
-
-  // The gavel: raised, then slammed down on each bang.
-  const last = BANGS.filter((b) => b <= sec + 0.25).length - 1;
-  const since = last >= 0 ? sec - BANGS[last] : 1;
-  const raise = since < 0 ? Math.min(1, -since / 0.25) : Math.min(1, Math.max(0, (since - 0.15) / 0.4));
-  const a = 0.9 * raise;
-  ctx.save(); ctx.translate(820, BENCH - 20); ctx.rotate(a);
-  pen.line(ctx, [{ x: 0, y: 0 }, { x: -170, y: -40 }], { width: 14, color: C.muted, seed: 22130 });
-  pen.shape(ctx, pen.roundRect(-230, -90, 70, 110, 14), { fill: C.rose, width: 6, seed: 22131, offset: 0 });
+// A score paddle: a round card on a stick, raised by k (0 hidden below the counter, 1 up).
+function paddle(ctx, theme, x, k, score, seed, hot) {
+  if (k <= 0) return;
+  const r = hot ? 118 : 96;
+  const y = 1200 - (1200 - 760) * k;
+  const tilt = (1 - Math.min(1, k)) * 0.5 * (x < W / 2 ? -1 : 1);
+  ctx.save(); ctx.translate(x, y); ctx.rotate(tilt); ctx.translate(-x, -y);
+  pen.line(ctx, [{ x, y: y + r - 6 }, { x: x + 4, y: y + r + 200 }], { width: 16, color: C.ink, seed: seed + 1 });
+  pen.shape(ctx, pen.ellipse(x, y, r, r, 36), { fill: hot ? C.rose : C.card, width: 7, seed, offset: 0 });
+  text(ctx, score, x, y + (hot ? 48 : 40), { size: hot ? 150 : 124, align: 'center', color: hot ? C.card : C.ink });
   ctx.restore();
-  pen.shape(ctx, pen.roundRect(560, BENCH - 30, 160, 34, 8), { fill: C.card, width: 5, seed: 22132, offset: 0 });
-  BANGS.forEach((b, i) => { if (sec > b && sec < b + 0.18) [-1, 1].forEach((d, k) => pen.line(ctx, [{ x: 640 + d * 110, y: BENCH - 60 }, { x: 640 + d * 150, y: BENCH - 100 }], { width: 7, color: theme.text, seed: 22140 + i * 2 + k })); });
 }
 
-hook.cues = () => BANGS.map((sec, i) => ({ sec, sfx: i === 2 ? 'boing' : 'tap', gain: 0.7 })).concat(BANGS.map((sec) => ({ sec: sec + 0.05, sfx: 'pop', gain: 0.35 })));
+function hook(ctx, theme, t, props, info = {}) {
+  const sec = info.sec ?? t * 3.2;
+  const scores = (props.scores || []).slice(0, 3);
+
+  kicker(ctx, props.label || '', W / 2 - 60, 260, { seed: 17101 });
+  headline(ctx, theme, props.line || '', { x: W / 2 - 60, y: 330, size: 128, maxW: 820, appear: S.at(sec, 0, 0.2), seed: 17102 });
+
+  // The paddles come up one by one with a little overshoot; the ten slams with a flash.
+  scores.forEach((s, i) => {
+    const k = S.pop(sec, UP[i], i === 2 ? 0.28 : 0.35);
+    paddle(ctx, theme, SEATS[i], k, s, 17120 + i * 4, i === 2);
+  });
+  // The judges, bobbing; everyone jumps when the ten lands.
+  SEATS.forEach((x, i) => {
+    const j = S.jump(sec, SLAM + i * 0.05, i === 2 ? 50 : 30);
+    const size = i === 2 ? 460 : 380;
+    tomato(ctx, NAMES[i], x, TOP - size * 0.5 - j.hop, size, { squash: j.squash, angle: Math.sin(sec * 2 + i) * 0.03 });
+  });
+  S.reaction(ctx, theme, 'shock', SEATS[0], TOP - 190, S.seg(sec, SLAM, SLAM + 0.5));
+  S.reaction(ctx, theme, 'shock', SEATS[1], TOP - 190, S.seg(sec, SLAM + 0.08, SLAM + 0.58));
+
+  S.counter(ctx, TOP);
+
+  if (sec >= SLAM) S.flash(ctx, 1 - S.seg(sec, SLAM, SLAM + 0.35));
+}
+
+hook.cues = () => [
+  { sec: 0, sfx: 'swish', gain: 0.5 },
+  { sec: UP[1], sfx: 'swish', gain: 0.5 },
+  { sec: SLAM, sfx: 'boing', gain: 0.7 },
+];
 hook.cover = (p) => ({ kicker: p.label, headline: p.line });
 
 module.exports = hook;

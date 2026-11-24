@@ -1,0 +1,22 @@
+{
+  "title": "Rate These Cafe Crimes",
+  "cover": { "hero": "host" },
+  "background": "lime",
+  "output": "video.mp4",
+  "mix": { "pad": "cosy" },
+  "scenes": [
+    { "type": "./hook.js", "duration": 4, "peek": false,
+      "say": "Rate these cafe crimes from one to ten. The last one is unforgivable.",
+      "props": { "label": "CAFE LIFE", "line": "Rate these *cafe crimes*.", "scores": ["6", "8", "10"] } },
+    { "type": "countdown", "duration": 5,
+      "say": "A laptop on a four-top, all day? Six. Ordering while still on the phone? Eight. And snapping your fingers for the check? Ten. Unforgivable.",
+      "props": { "caption": "Cafe crimes, *rated*",
+        "items": ["Laptop on a 4-top all day: 6", "Ordering on the phone: 8", "Snapping for the check: 10"] } },
+    { "type": "quote", "duration": 4.5, "speaker": "Dev",
+      "say": "Somebody snapped at me once. Two years ago. I'm still not over it.",
+      "props": { "name": "Dev", "role": "line cook, holds a grudge", "quote": "Someone *snapped* at me. Still not over it." } },
+    { "type": "endcard", "duration": 3,
+      "say": "What would you add? Rate it in the comments. Follow for more cafe life.",
+      "props": { "cta": "Follow for more *cafe life*" } }
+  ]
+}
