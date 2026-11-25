@@ -1,6 +1,6 @@
 {
   "title": "Where Does Your $5 Latte Actually Go?",
-  "cover": { "hero": "number", "number": "35¢", "label": "kept, from a $5 latte" },
+  "cover": { "hero": "number", "number": "$5", "label": "a latte. Guess what you keep." },
   "background": "butter",
   "output": "video.mp4",
   "mix": { "pad": "mellow" },
