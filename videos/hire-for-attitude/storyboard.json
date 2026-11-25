@@ -1,0 +1,81 @@
+{
+  "title": "Hire for Attitude or for Experience?",
+  "cover": {
+    "hero": "tomato",
+    "name": "Jess",
+    "kicker": "HIRING",
+    "headline": "Lots of experience. *Good hire?*"
+  },
+  "background": "paper",
+  "output": "video.mp4",
+  "mix": {
+    "pad": "warm"
+  },
+  "scenes": [
+    {
+      "type": "./hook.js",
+      "duration": 3.4,
+      "say": "Lots of experience and a good hire sound like the same thing. Often they're not.",
+      "props": {
+        "label": "HIRING",
+        "line": "Lots of experience. *Good hire?*",
+        "years": "12 YEARS",
+        "hi": "Hi! I'm *Jess*.",
+        "left": "Leo",
+        "right": "Jess"
+      },
+      "peek": false
+    },
+    {
+      "type": "myth",
+      "duration": 5,
+      "say": "The register and steaming milk can be taught on the job. Being warm and reliable is much harder to teach.",
+      "props": {
+        "myth": "More experience, better hire",
+        "fact": "Skills can be taught on the job. Attitude is much harder to teach."
+      }
+    },
+    {
+      "type": "scale",
+      "duration": 5,
+      "say": "One big study of twenty thousand new hires found nearly nine in ten who failed, failed on attitude, not skill.",
+      "props": {
+        "caption": "Why new hires *fail*",
+        "left": { "label": "Attitude: 89%", "weight": 89 },
+        "right": { "label": "Skill: 11%", "weight": 11 },
+        "verdict": "It's rarely the *skills*"
+      }
+    },
+    {
+      "type": "quote",
+      "duration": 4.5,
+      "speaker": "Maria",
+      "say": "I don't know who has the most experience. I know who's kind to me.",
+      "props": {
+        "name": "Maria",
+        "role": "regular",
+        "quote": "I don't know who's experienced. I know who's *kind*."
+      }
+    },
+    {
+      "type": "fix",
+      "duration": 5,
+      "say": "So: decide what's truly needed on day one. Ask how they'd handle a rush. And pay for a short trial shift.",
+      "props": {
+        "caption": "Hire *smart*",
+        "title": "Hiring",
+        "steps": [
+          "Decide what's needed on day one",
+          "Ask how they'd handle a rush",
+          "Try a short, paid trial shift"
+        ]
+      }
+    },
+    {
+      "type": "endcard",
+      "duration": 2.6,
+      "say": "Follow for more owner tips.",
+      "props": {}
+    }
+  ]
+}

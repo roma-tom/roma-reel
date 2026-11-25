@@ -109,6 +109,7 @@ Made as videos:
 - [x] The one-star guest who became a regular (`videos/one-star-regular-icicles`)
 - [x] The one-star guest who became a regular, a second take (`videos/one-star-regular`)
 - [x] Hire for attitude or for experience? (`videos/attitude-or-experience`)
+- [x] Hire for attitude or for experience, a second take (`videos/hire-for-attitude`)
 - [x] What your regulars' orders say about them (`videos/your-usual`)
 - [x] What your regulars' orders say about them, a second take (`videos/regulars-orders`)
 - [x] Card surcharges: pass the fee on, or absorb it? (`videos/card-surcharge-leo`)
