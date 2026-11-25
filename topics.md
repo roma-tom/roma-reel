@@ -1,12 +1,15 @@
 # Topics
 
-The backlog of video ideas for independent cafe and restaurant owners. Most solve a problem,
-but not all: a feed that is only advice gets skipped. See `style/KINDS.md` for why and how.
+The backlog of video ideas for independent cafe and restaurant owners. What gets made first is
+set by what our own reels say works: see `style/WHAT-WORKS.md`.
 
-- **"Make the next video"** takes the first unticked topic in **Up next**.
+- **"Make the next video"** takes the first unticked topic under **Shaped and ready** (three in four
+  videos; see the plan below).
 - **When a video is done,** its topic moves to **Covered**, ticked, with the video's folder.
-- **To add an idea,** append it to the end of **Up next** as
-  `- [ ] Topic [kind] Hook: "opener" (hook idea: what happens on screen; templates that could fit)`.
+- **To add an idea,** add it to **Up next** as
+  `- [ ] Topic [kind] {shape} Hook: "opener" (hook idea: what happens on screen; templates that could fit)`,
+  under **Shaped and ready** if it fits shape A, B or C (`style/WHAT-WORKS.md`), otherwise under
+  **Needs a shape first**.
   Check **Covered** first so it isn't a repeat. The kinds are in `style/KINDS.md`; how hooks are
   made in `style/HOOKS.md`.
 
@@ -15,22 +18,43 @@ means the guest says it, a number in brackets means the video's own worked figur
 hook idea (the picture the video's own hook is built around) and templates for the other
 scenes. Every video gets its own hook; the idea is a starting point, not a rule.
 
-**The order is the plan:** consecutive videos change kind (advice, then something else) and
-area (money, staff, guests, the room and the kitchen, a little tech). The topics with no hook
-written yet are all advice: before making one, write its hook from `style/HOOKS.md`, and keep it
-behind a non-advice topic in the order. Topics without a hook idea need one before the video is made.
+**The order is the plan:** our own view counts (`style/WHAT-WORKS.md`) say three shapes grow the
+account, so three of every four videos come from **Shaped and ready**, tagged {A}, {B} or {C}.
+Consecutive videos still change area (money, staff, guests, the room). The fourth can be any
+kind, including the relatable, day and hot take ideas, but give its hook a number or a complaint.
 
 ## Up next
 
-- [ ] Where does your $5 latte actually go? [advice] Hook: "Five dollars a latte. Guess how much you keep." (receipt, plate)
+**Shaped and ready.** Each fits one of the three shapes in `style/WHAT-WORKS.md`: {A} one item,
+one price, one surprise; {B} an unhappy guest, in their words, won back; {C} a staff problem with
+a name or a number. They're ordered so the area (money, guests, staff) changes each time. Make
+these first.
+
+- [ ] Where does your $5 latte actually go? [advice] {A} Hook: "Five dollars a latte. Guess how much you keep." (hook idea: a $5 bill slides across the counter and gets snipped into pieces, milk, cup, rent, staff, card fee, until one small coin is left; receipt, plate)
+- [ ] Priya waited 20 minutes for one latte [story] {B} Hook: (Priya) "Twenty minutes. For one latte." (hook idea: a wall clock spins while Priya taps her foot at the pickup counter and drinks go out to everyone else; tickets, quote, regulars; ends with her back as a regular)
+- [ ] Same shift, $40 less in tips: how do you split card tips fairly? [advice] {C} Hook: "Same shift. Forty dollars less in tips." (hook idea: two tip jars side by side, Ana's and Dev's, one fills, the other barely moves, and Ana stares at it; plate, rota)
+- [ ] The $4 muffin or the $4 drip coffee: which earns more? [quiz] {A} Hook: "Same price. One earns you way more. Which?" (hook idea: a muffin and a cup on a seesaw at exactly level, a question mark pops up; versus, receipt; ends asking for guesses)
+- [ ] Dev wants to quit on a Friday night [story] {C} Hook: (Dev) "Can we talk after close?" (hook idea: the closing shift, Dev hangs up his apron slowly while Roma Tom freezes mid-mop; chat, receipt, fix; what it would cost to replace him, and what Roma Tom does)
+- [ ] Delivery app or your own ordering: how much do you keep? [advice] {A} Hook: "Same $24 order. You keep very different money." (hook idea: the same order bag goes out two doors; from one, a third of the coins fly off on the way; versus, receipt)
+- [ ] The guest who is never happy [story] {B} Hook: (Ivan) "It's fine. It's just not how I like it." (hook idea: Ivan sends the same latte back three times, each one a little different, while Ana's eye twitches; quote, review, fix; Roma Tom asks him to show how he likes it, and he's a regular now)
+- [ ] Guess how many croissants pay the electric bill [quiz] {A} Hook: "Guess how many croissants pay one month of power." (hook idea: croissants stack up on a scale against a power bill until it tips; receipt, jar; ends asking for guesses)
+- [ ] Are you staffing for the rush, or for the whole day? [advice] {C} Hook: "Three staff at 3 pm. Zero guests. That's [hourly number] an hour." (hook idea: three baristas lean on the counter in an empty cafe, polishing the same cup, while a coin drips out of the register every second; rush, rota)
+- [ ] Leo's order came out wrong. Twice. [story] {B} Hook: (Leo) "This isn't what I ordered. Again." (hook idea: a plate slides in front of Leo, he lifts the bun, wrong; it slides away and comes back, wrong again; tickets, quote, fix; ends with the fix at the pass and Leo back next week)
+- [ ] One dropped latte a day: what does it cost a year? [advice] {A} Hook: "One dropped latte a day. That's [yearly number] a year." (hook idea: a latte slips off a tray in slow motion and splashes; each drop turns into a coin rolling under the counter; jar, fix)
+- [ ] Your new hire froze on their first rush [advice] {C} Hook: "Day two. First rush. Theo froze." (hook idea: tickets pile up on the rail while Theo stands perfectly still with a milk jug, the steam wand screaming; tickets, day, fix: how to train a new hire in week one)
+- [ ] Should you charge for to-go cups? [advice] {A} Hook: "Every to-go cup costs you [cents]. Who pays?" (hook idea: a tower of to-go cups, lids and sleeves grows taller with every order while a coin drops off for each; pricetag, versus)
+- [ ] You're out of the dish they came for [story] {B} Hook: (Maria) "You're out? I came here for that." (hook idea: Maria's face falls as Dev holds up an empty pan; tickets, quote, fix; how to handle running out mid-service, and Maria gets a first taste of tomorrow's batch)
+- [ ] What does one free extra shot cost you? [advice] {A} Hook: "One free extra shot, every morning. Guess the bill." (hook idea: a shot of espresso drips into a cup and every drop lands as a coin; jar, fix)
+- [ ] Does a coffee and pastry deal raise the average order? [advice] {A} Hook: "$4 coffee, $4 pastry. $7 for both?" (hook idea: a coffee and a croissant slide together on the counter and the price tag between them flips; receipt, versus)
+- [ ] How many times can you turn every table on a busy night? [quiz] {A} Hook: "Guess how many times one table turns on a Friday night." (hook idea: one table seen from above as guests sit, leave, sit, leave in fast motion with a counter ticking; floor, receipt)
+- [ ] How do you handle allergies without slowing service? [advice] {B} Hook: (guest) "Is there any nut in this?" (hook idea: Priya points at the menu and every head behind the counter turns at once; tickets, fix)
+
+**Needs a shape first.** Before making one of these, give it shape A, B or C (find the one item,
+the unhappy guest or the staff member in trouble), write its hook from `style/HOOKS.md`, tag it
+and move it up. Or make it as the "fourth" video, the one in four that can be anything.
+
 - [ ] Should you open on Mondays? [advice] Hook: "Seven days a week sounds like more money. Not always." (calendar, receipt)
-- [ ] Delivery app or your own ordering: how much do you keep? [advice] Hook: "Same order, same price. You keep very different money." (versus, receipt)
-- [ ] How many times can you turn every table on a busy night? [quiz] Hook: "Guess how many times one table turns on a Friday night." (floor, receipt)
-- [ ] How do you handle allergies without slowing service? [advice] Hook: (guest) "Is there any nut in this?" (tickets, fix)
 - [ ] How should you price a catering order? [advice] Hook: "Price catering like a big table and you'll lose money." (receipt, fix)
-- [ ] Are you staffing for the rush, or for the whole day? [advice] Hook: "Same number of staff all day? That's paying for the quiet hours." (rush, rota)
-- [ ] Should you charge for to-go cups? [advice] Hook: "A free cup and a free cup of coffee aren't so different." (pricetag, versus)
-- [ ] How do you deal with a guest who is never happy? [advice] Hook: (guest) "It's fine. It's just not how I like it." (quote, fix)
 - [ ] Can you close down 20 minutes faster? [advice] Hook: "Twenty minutes a night is two hours a week." (day, countdown)
 - [ ] Should you offer a smaller, cheaper size? [advice] Hook: "A smaller size can raise your average order." (menu, pricetag)
 - [ ] How do you plan a seasonal menu change? [advice] (calendar, menu)
@@ -43,11 +67,8 @@ behind a non-advice topic in the order. Topics without a hook idea need one befo
 - [ ] Should you answer the phone during the rush? [advice] (rush, scale)
 - [ ] Should you add brunch? [advice] (calendar, rush, receipt)
 - [ ] How do you price your menu on the delivery apps? [advice] (receipt, versus)
-- [ ] How do you split card tips fairly? [advice] (plate, rota)
-- [ ] How do you train a new hire in their first week? [advice] (day, fix)
 - [ ] Why should everyone know two stations? [advice] (rota, fix)
 - [ ] How do you win the office lunch crowd? [advice] (rush, fix)
-- [ ] Does a coffee and pastry deal raise the average order? [advice] (receipt, versus)
 - [ ] Should you reply to every review, and does it pay off? [advice] (review, trend)
 - [ ] How long are your ticket times, really? [advice] (tickets, trend)
 - [ ] Is your food cost percentage too high? [advice] (gauge, receipt)
@@ -55,7 +76,6 @@ behind a non-advice topic in the order. Topics without a hook idea need one befo
 - [ ] How do small fixes like less waste per plate add up? [advice] (jar)
 - [ ] Your menu is a map: what sells, what earns, and where does the eye go? [advice] (menu)
 - [ ] Should you raise prices a little once a year? [advice] (pricetag, myth)
-- [ ] How do you handle running out of a dish mid-service? [advice] (tickets, fix)
 - [ ] Do stamp cards actually make it easier to come back? [advice] (stampcard, regulars)
 - [ ] What should you post on Instagram when nothing is new? [advice] (countdown, quote)
 - [ ] What cheap wins can you get done this week? [advice] (countdown, fix)

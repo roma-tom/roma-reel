@@ -2,7 +2,15 @@
 
 Roma Tom started as pure advice: one problem, one fix. Advice still matters most, but a feed made
 only of lessons reads like homework, and a lot of what owners watch, save and share isn't a
-lesson at all. Mix the kinds: about half advice, never two of the same kind in a row.
+lesson at all.
+
+**Update, November 25, 2026: our own numbers changed the mix.** The research below came from
+other accounts. On ours, not one relatable, hot take, shout-out, day, guests or then-and-now
+video passed 650 views, out of about 25; the 13 reels over 1,000 were advice, quizzes and stories
+with one of three shapes (`style/WHAT-WORKS.md`). So: **three of every four videos use shape A,
+B or C** (in practice advice, quiz or story); the fourth can be any kind here, and still gets a
+number or a complaint in its hook. The kinds below stay available; they're just no longer half
+the feed.
 
 ## What's working beyond advice (researched November 2026)
 
