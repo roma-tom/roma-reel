@@ -1,0 +1,34 @@
+{
+  "title": "Priya Waited 20 Minutes for One Latte",
+  "cover": { "hero": "tomato", "name": "Priya" },
+  "background": "mint",
+  "output": "video.mp4",
+  "mix": { "pad": "drift" },
+  "scenes": [
+    { "type": "./hook.js", "duration": 4, "peek": false, "speaker": "Priya",
+      "say": "Twenty minutes. For one latte.",
+      "props": { "label": "STORY TIME", "line": "Twenty minutes. *For one latte.*", "wait": "20 min" } },
+    { "type": "tickets", "duration": 5,
+      "say": "Her ticket got stuck behind a big order. Nobody noticed. Twenty minutes on the rail.",
+      "props": { "caption": "Lost on the *rail*",
+        "tickets": [
+          { "table": "T7", "items": ["6 lattes", "4 muffins"], "minutes": 9 },
+          { "table": "T2", "items": ["2 flat whites"], "minutes": 6 },
+          { "table": "PRIYA", "items": ["1 oat latte"], "minutes": 20 }
+        ],
+        "limit": 8, "goal": "SHE'S STILL WAITING", "cook": "Ana" } },
+    { "type": "quote", "duration": 4.5,
+      "say": "Roma Tom walked it over himself. I'm so sorry, Priya. That one's on us, and so is tomorrow's.",
+      "props": { "name": "Roma Tom", "role": "owner, walking it over", "quote": "So sorry. This one's on us, *and tomorrow's*." } },
+    { "type": "quote", "duration": 4, "speaker": "Priya",
+      "say": "I came back the next day just to see. Now I come every day.",
+      "props": { "name": "Priya", "role": "regular now", "quote": "Came back to see. Now I come *every day*." } },
+    { "type": "fix", "duration": 4.5,
+      "say": "So: small orders jump the line. Call out anything over five minutes. And when you miss one, walk it over yourself.",
+      "props": { "title": "Never lose one",
+        "steps": ["Small orders jump the line", "Call out anything over 5 min", "Missed one? Walk it over"] } },
+    { "type": "endcard", "duration": 3,
+      "say": "Follow for more cafe life.",
+      "props": { "cta": "Follow for more *cafe life*" } }
+  ]
+}
