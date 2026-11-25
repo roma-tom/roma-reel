@@ -1,0 +1,74 @@
+{
+  "title": "Speed Up Your Coffee Bar Without Adding Staff",
+  "cover": {
+    "hero": "headline"
+  },
+  "background": "sky",
+  "output": "video.mp4",
+  "mix": {
+    "pad": "sunny"
+  },
+  "scenes": [
+    {
+      "type": "./hook.js",
+      "duration": 4,
+      "peek": false,
+      "say": "More staff, faster line? Not always. Sometimes they just bump into each other.",
+      "props": {
+        "label": "THE RUSH",
+        "line": "More staff, *faster line*? Not always."
+      }
+    },
+    {
+      "type": "versus",
+      "duration": 4.5,
+      "say": "Say each drink takes ninety seconds, and part of that is walking for milk and cups. Put everything in reach, and it's seventy-five.",
+      "props": {
+        "caption": "Same Ana, *same machine*",
+        "left": {
+          "name": "Ana",
+          "label": "Messy station",
+          "value": "90 sec",
+          "note": "a drink, walking for milk"
+        },
+        "right": {
+          "name": "Ana",
+          "label": "Set-up station",
+          "value": "75 sec",
+          "note": "a drink, all within reach"
+        },
+        "winner": "right"
+      }
+    },
+    {
+      "type": "quote",
+      "duration": 4.5,
+      "speaker": "Ana",
+      "say": "Fifteen seconds a drink, times forty drinks in the rush. That's ten minutes, with the same team.",
+      "props": {
+        "name": "Ana",
+        "role": "barista, mornings",
+        "quote": "Same team. *Ten minutes* faster."
+      }
+    },
+    {
+      "type": "fix",
+      "duration": 4.5,
+      "say": "So keep everything within one step. Stack cups by size before the rush. And split the jobs: one on milk, one on shots.",
+      "props": {
+        "title": "Speed up the bar",
+        "steps": [
+          "Everything within one step",
+          "Stack cups before the rush",
+          "One on milk, one on shots"
+        ]
+      }
+    },
+    {
+      "type": "endcard",
+      "duration": 2.6,
+      "say": "Follow for more owner tips.",
+      "props": {}
+    }
+  ]
+}

@@ -3,6 +3,21 @@
 The first second decides whether anyone sees the rest. Instagram counts how many viewers skip
 a reel in its first 3 seconds, and that number feeds whether it shows the reel to more people.
 
+## Our own results (November 25, 2026)
+
+The 13 reels on this channel over 1,000 views all open one of two ways (details and the full
+table in `style/WHAT-WORKS.md`):
+
+- **A question with a money answer, about one item:** "Free refills. Free for *who*?", "How many
+  lattes pay the *rent*?", "Cookie or plate: which earns *more*?", "$1 an hour, or *$2,000*?".
+  Two prices against each other is the strongest pattern so far.
+- **A problem, said plainly:** a guest's own complaint ("Um, hello? Is anyone *working*?", "My
+  latte was *cold*."), a staff emergency ("6:02 am. *Ana's sick.*"), or something unfair or wrong
+  on screen ("Guests get this. Staff get *that*?", "More staff, *faster line*? Not always.").
+
+The reels under 650 mostly open on a punchline or a statement that answers itself ("2:04 empty.
+2:05 bus tour.", "Closed. Almost.", "Post every day? No."). Leave the viewer a question.
+
 ## Every video gets its own hook
 
 The hook is the most important scene, so it is never a template. Each video's first scene is

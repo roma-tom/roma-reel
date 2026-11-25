@@ -1,0 +1,36 @@
+{
+  "title": "Someone Calls In Sick at 6 AM: Now What?",
+  "cover": { "hero": "tomato", "name": "Ana" },
+  "background": "mint",
+  "output": "video.mp4",
+  "mix": { "pad": "mellow" },
+  "scenes": [
+    { "type": "./hook.js", "duration": 4, "peek": false,
+      "say": "Six oh two in the morning. Ana's sick. Who covers?",
+      "props": { "label": "STAFF", "line": "6:02 am. *Ana's sick.*", "time": "SATURDAY", "names": ["DEV 6-2", "ANA 7-3", "LEO 11-7"] } },
+    { "type": "chat", "duration": 5.5, "speaker": "Ana",
+      "say": "So sorry, I've got a fever. I can't come in. Feel better, Ana. We've got it.",
+      "props": { "caption": "*6:02 am*",
+        "contact": "Ana", "status": "BARISTA",
+        "messages": [
+          { "from": "them", "text": "So sorry, I've got a fever" },
+          { "from": "them", "text": "I can't come in today" },
+          { "from": "me", "text": "Feel better, Ana. We've got it." }
+        ] } },
+    { "type": "rota", "duration": 5,
+      "say": "This is where a plan beats a panic. A short list of who can cover, already agreed. Leo comes in early, and Saturday is covered.",
+      "props": { "caption": "Saturday, *covered*",
+        "days": ["M", "T", "W", "T", "F", "S", "S"],
+        "staff": [
+          { "name": "Dev", "shifts": [1, 1, 0, 1, 1, 1, 0] },
+          { "name": "Ana", "shifts": [0, 1, 1, 1, 0, 0, 1] },
+          { "name": "Leo", "shifts": [1, 0, 1, 0, 1, 1, 1] }
+        ],
+        "highlight": 5 } },
+    { "type": "fix", "duration": 4.5,
+      "say": "So: keep an on-call list for every shift. Agree what a short-staffed day looks like, like a smaller menu. And never make the sick person find their own cover.",
+      "props": { "title": "Plan for 6 am",
+        "steps": ["Keep an on-call list", "Have a short-staffed plan", "Sick? They don't find cover"] } },
+    { "type": "endcard", "duration": 2.6, "say": "Follow for more owner tips.", "props": {} }
+  ]
+}

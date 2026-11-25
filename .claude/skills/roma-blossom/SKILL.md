@@ -15,6 +15,8 @@ levels up from this file. This file may be reached through a symlink in `~/.clau
 resolve its real path first. Run every command below from the project root.
 
 - `style/STYLE.md`: palette, type, motion, cast, safe zones. **Read it before writing a script.**
+- `style/WHAT-WORKS.md`: what the channel's own view counts say works: three topic shapes and
+  the hook rules that come with them. **Read it before picking a topic or writing a hook.**
 - `scripts/`: the renderer, scene templates, sound and voice. Node only. The voice is
   ElevenLabs, using `ELEVENLABS_API_KEY` from `.env.local` at the project root (never print or
   open that file); without a key, or if ElevenLabs fails, the whole video falls back to Kokoro,
@@ -44,14 +46,25 @@ root and follow what it prints. The first render that falls back to Kokoro downl
 1. **Pick the question.** Turn the topic into one question an owner would ask out loud, such as
    "Is a 10% off coupon worth it?" One idea per video. If the user gave only a broad area
    ("staffing"), pick the strongest question yourself and say which one you chose when you hand over.
+   **Every topic is weighed against `style/WHAT-WORKS.md` first.** Three of every four videos use
+   one of its three winning shapes: **A** one item, one price, one surprise (two numbers against
+   each other works best); **B** an unhappy guest, in their own words, won back; **C** a staff
+   problem with a name or a number. Look at the last three videos: if fewer than two of them were
+   A, B or C, this one must be. Name the shape in `script.md` next to the kind.
    - **No topic given** ("make the next video", "next one"): take the first unticked topic under
-     **Up next** in `topics.md`. Its `[kind]` says what sort of video it is (`style/KINDS.md`),
-     and its `Hook:` is a ready opener and a hook idea for this video's own hook (a better idea wins). Skip
-     to the next one if it's the same kind as the last video made.
+     **Up next** in `topics.md` that fits the rule above. Its `[kind]` says what sort of video it
+     is (`style/KINDS.md`), its `{A}`, `{B}` or `{C}` tag the shape, and its `Hook:` is a ready
+     opener and a hook idea for this video's own hook (a better idea wins). Skip a topic that would
+     repeat the last video's area (money, staff, guests, the room) twice in a row, if another
+     shaped topic is close behind it.
+   - **Shape the topic, not just pick it.** An abstract money topic (margin, cash flow, fees)
+     becomes shape A by finding the one item that carries it ("the $5 latte"). A process tip
+     becomes shape C by starting from the moment it goes wrong for a named person.
    - **A topic given:** check **Covered** in `topics.md` first. If it's already been made, say so
      and suggest a fresh angle on it, or the next topic from **Up next** instead.
-   - **"Add … to the backlog":** append it to the end of **Up next** as
-     `- [ ] Topic [kind] Hook: "opener" (hook idea: what happens on screen; templates)`, after checking it isn't in either list, then
+   - **"Add … to the backlog":** add it to **Up next** as
+     `- [ ] Topic [kind] {shape} Hook: "opener" (hook idea: what happens on screen; templates)`, under
+     **Shaped and ready** if it fits shape A, B or C, otherwise **Needs a shape first**, after checking it isn't in either list, then
      commit and push `topics.md`. No video is made.
 2. **Scaffold the folder:** `node scripts/new.js <slug>` creates `videos/<slug>/` with a
    `script.md`, a `caption.txt`, a starter `hook.js` (to be replaced; see step 5) and a starter `storyboard.json`. The starter already has a
@@ -78,7 +91,9 @@ root and follow what it prints. The first render that falls back to Kokoro downl
    sound** below), as long as it still differs from the last three. Do the same for the pad
    (`mix.pad`, which the scaffold also picks): `grep -h '"pad"'` over the same three files.
    **Make the hook first: it's the most important scene, and every video gets its own.** Read
-   `style/HOOKS.md` and follow it: write the idea in one line at the top of `videos/<slug>/hook.js`
+   `style/HOOKS.md` and follow it. The hook line carries a number or a two-price comparison, or a
+   guest's complaint in their own words, and a question beats a statement (`style/WHAT-WORKS.md`).
+   Never open on a punchline that closes the loop. Then: write the idea in one line at the top of `videos/<slug>/hook.js`
    (what frame one shows, what's readable by half a second, the open loop), then replace the
    starter with a hook drawn for this topic alone, built from `scripts/lib/stage.js`, `kit.js` and
    `marks.js`. The first scene is `{ "type": "./hook.js", ... }`, with every on-screen word in its

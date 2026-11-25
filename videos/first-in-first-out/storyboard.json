@@ -1,0 +1,27 @@
+{
+  "title": "First In, First Out: Stop Throwing Food Away",
+  "cover": { "hero": "number", "number": "$2,600", "label": "a year, in the trash" },
+  "background": "mint",
+  "output": "video.mp4",
+  "mix": { "pad": "warm" },
+  "scenes": [
+    { "type": "./hook.js", "duration": 4, "peek": false,
+      "say": "New tub goes in front. The old one slides to the back. And ends up in the trash.",
+      "props": { "label": "THE WALK-IN", "line": "New in front. *Old in the trash.*", "tag": "MON" } },
+    { "type": "jar", "duration": 4.5,
+      "say": "Say that's fifty dollars of food a week, lost at the back of the walk-in. Times fifty-two weeks. That's two thousand six hundred dollars a year.",
+      "props": { "caption": "Lost at the *back of the shelf*",
+        "lines": ["$50 of food a week", "× 52 weeks"],
+        "total": 2600, "currency": "$", "label": "a year" } },
+    { "type": "myth", "duration": 5,
+      "say": "And it's not just money. Most health codes say ready-to-eat food you make has seven days in the fridge, counting the day it's made.",
+      "props": { "caption": "Myth or *fact*?",
+        "myth": "If it smells fine, it's fine",
+        "fact": "Ready-to-eat food you make: 7 days in the fridge, max" } },
+    { "type": "fix", "duration": 4.5,
+      "say": "So: put new stock behind the old. Label everything with the day it was made. And check the back of the shelf every morning.",
+      "props": { "title": "First in, first out",
+        "steps": ["New stock goes behind the old", "Label it with the day it's made", "Check the back every morning"] } },
+    { "type": "endcard", "duration": 2.6, "say": "Follow for more owner tips.", "props": {} }
+  ]
+}

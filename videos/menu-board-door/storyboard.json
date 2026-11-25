@@ -1,0 +1,28 @@
+{
+  "title": "Is Your Menu Board Readable From the Door?",
+  "cover": { "hero": "number", "number": "1 inch", "label": "of letter for every 10 feet" },
+  "background": "lime",
+  "output": "video.mp4",
+  "mix": { "pad": "mellow" },
+  "scenes": [
+    { "type": "./hook.js", "duration": 4, "peek": false, "speaker": "Priya",
+      "say": "Sorry, what does the board say?",
+      "props": { "label": "THE MENU", "line": "Can they read it *from the door*?", "items": ["LATTE 5", "MUFFIN 4", "TOAST 9"] } },
+    { "type": "myth", "duration": 5,
+      "say": "If guests can't read the board, they don't browse. They order the one thing they know, or they walk out.",
+      "props": { "caption": "Myth or *fact*?",
+        "myth": "Everything fits if you write small",
+        "fact": "If they can't read it, they order the safe thing" } },
+    { "type": "versus", "duration": 4.5,
+      "say": "Sign makers use a simple rule. About an inch of letter height for every ten feet. So if your door is twenty feet away, write two inches tall.",
+      "props": { "caption": "The *sign maker's* rule",
+        "left": { "name": "Priya", "label": "Door 10 ft away", "value": "1 inch", "note": "letter height" },
+        "right": { "name": "Priya", "label": "Door 20 ft away", "value": "2 inches", "note": "letter height" },
+        "winner": "right" } },
+    { "type": "fix", "duration": 4.5,
+      "say": "So: stand at the door and read your own board. Cut it to fewer items. And put the best sellers biggest.",
+      "props": { "title": "Fix the board",
+        "steps": ["Read it from the door yourself", "Fewer items, bigger letters", "Best sellers biggest"] } },
+    { "type": "endcard", "duration": 2.6, "say": "Follow for more owner tips.", "props": {} }
+  ]
+}

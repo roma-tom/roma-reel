@@ -1,0 +1,31 @@
+{
+  "title": "To the Owner Who Opened Today on Four Hours of Sleep",
+  "cover": { "hero": "headline" },
+  "background": "sky",
+  "output": "video.mp4",
+  "mix": { "pad": "drift" },
+  "scenes": [
+    { "type": "./hook.js", "duration": 4, "peek": false,
+      "say": "Cafe owners, this one's for you.",
+      "props": { "label": "FOR YOU", "line": "Cafe owners, *this one's for you*.", "time": "4:58" } },
+    { "type": "day", "duration": 5,
+      "say": "You were up before five. Lights on at six. Smiling at the first guest by seven. Doing the books after close.",
+      "props": { "caption": "Your day, *before most people's starts*",
+        "steps": [
+          { "time": "4:58", "label": "Alarm, again" },
+          { "time": "6:00", "label": "Lights on" },
+          { "time": "7:00", "label": "Smile, first guest" },
+          { "time": "9:30 pm", "label": "Books after close" }
+        ],
+        "highlight": 2 } },
+    { "type": "quote", "duration": 4.5, "speaker": "Maria",
+      "say": "Your cafe is the best part of my morning. I don't think you know that.",
+      "props": { "name": "Maria", "role": "regular, every morning", "quote": "You're the best part of *my morning*." } },
+    { "type": "quote", "duration": 4.5,
+      "say": "Nobody claps when the doors open on time. So here it is. We see you. Get some sleep tonight.",
+      "props": { "name": "Roma Tom", "role": "owner, also tired", "quote": "We see you. *Get some sleep.*" } },
+    { "type": "endcard", "duration": 3,
+      "say": "Send this to an owner who needs it. Follow for more cafe life.",
+      "props": { "cta": "Follow for more *cafe life*" } }
+  ]
+}
