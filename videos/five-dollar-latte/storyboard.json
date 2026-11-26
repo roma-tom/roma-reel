@@ -1,0 +1,45 @@
+{
+  "title": "Where Does Your $5 Latte Actually Go?",
+  "cover": { "hero": "number", "number": "57¢", "label": "kept from a $5 latte" },
+  "background": "butter",
+  "output": "video.mp4",
+  "mix": { "pad": "cosy" },
+  "scenes": [
+    { "type": "./hook.js", "duration": 3.4, "peek": false,
+      "say": "Five dollars a latte. Guess how much you keep.",
+      "props": { "line": "$5 latte. Guess what you *keep*.", "bill": "$5", "left": "?",
+        "cuts": ["Beans", "Milk", "Cup", "Card fee", "Staff", "Rent"] } },
+    { "type": "plate", "duration": 5,
+      "say": "Say a latte sells for five dollars. Beans, milk and a cup cost a dollar twenty-five. Staff, a dollar fifty. Rent and bills, a dollar forty.",
+      "props": { "caption": "Where your *$5* goes",
+        "slices": [
+          { "label": "Coffee and cup", "value": 125 },
+          { "label": "Staff", "value": 150 },
+          { "label": "Rent and bills", "value": 140 },
+          { "label": "Card fee", "value": 28 },
+          { "label": "You", "value": 57 }
+        ],
+        "highlight": 1 } },
+    { "type": "receipt", "duration": 4.5,
+      "say": "Add a twenty-eight cent card fee, and you keep about fifty-seven cents a cup.",
+      "props": { "caption": "One *latte*", "title": "LATTE · $5",
+        "items": [
+          { "label": "Latte", "amount": 5 },
+          { "label": "Beans", "amount": -0.6 },
+          { "label": "Milk", "amount": -0.4 },
+          { "label": "Cup and lid", "amount": -0.25 },
+          { "label": "Card fee", "amount": -0.28 },
+          { "label": "Staff", "amount": -1.5 },
+          { "label": "Rent and bills", "amount": -1.4 }
+        ],
+        "totalLabel": "You keep" } },
+    { "type": "pricetag", "duration": 4.5,
+      "say": "Raise it a quarter, and you keep eighty-one cents. That's over forty percent more.",
+      "props": { "caption": "Just *25¢* more", "item": "Latte", "from": "$5.00", "to": "$5.25",
+        "note": "You keep *81¢*, not 57¢" } },
+    { "type": "fix", "duration": 4,
+      "say": "So: know what each drink costs you. Price for staff time, not just beans. And offer a pastry with it.",
+      "props": { "title": "The fix", "steps": ["Know your cost per drink", "Price in staff time too", "Offer a pastry with it"] } },
+    { "type": "endcard", "duration": 2.6, "say": "Follow for more owner tips.", "props": {} }
+  ]
+}
