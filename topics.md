@@ -35,7 +35,6 @@ these first.
 - [ ] Dev wants to quit on a Friday night [story] {C} Hook: (Dev) "Can we talk after close?" (hook idea: the closing shift, Dev hangs up his apron slowly while Roma Tom freezes mid-mop; chat, receipt, fix; what it would cost to replace him, and what Roma Tom does)
 - [ ] Delivery app or your own ordering: how much do you keep? [advice] {A} Hook: "Same $24 order. You keep very different money." (hook idea: the same order bag goes out two doors; from one, a third of the coins fly off on the way; versus, receipt)
 - [ ] The guest who is never happy [story] {B} Hook: (Ivan) "It's fine. It's just not how I like it." (hook idea: Ivan sends the same latte back three times, each one a little different, while Ana's eye twitches; quote, review, fix; Roma Tom asks him to show how he likes it, and he's a regular now)
-- [ ] Guess how many croissants pay the electric bill [quiz] {A} Hook: "Guess how many croissants pay one month of power." (hook idea: croissants stack up on a scale against a power bill until it tips; receipt, jar; ends asking for guesses)
 - [ ] Are you staffing for the rush, or for the whole day? [advice] {C} Hook: "Three staff at 3 pm. Zero guests. That's [hourly number] an hour." (hook idea: three baristas lean on the counter in an empty cafe, polishing the same cup, while a coin drips out of the register every second; rush, rota)
 - [ ] Leo's order came out wrong. Twice. [story] {B} Hook: (Leo) "This isn't what I ordered. Again." (hook idea: a plate slides in front of Leo, he lifts the bun, wrong; it slides away and comes back, wrong again; tickets, quote, fix; ends with the fix at the pass and Leo back next week)
 - [ ] One dropped latte a day: what does it cost a year? [advice] {A} Hook: "One dropped latte a day. That's [yearly number] a year." (hook idea: a latte slips off a tray in slow motion and splashes; each drop turns into a coin rolling under the counter; jar, fix)
@@ -158,6 +157,7 @@ Made as videos:
 - [x] Where does your $5 latte actually go, a second take (`videos/five-dollar-latte`)
 - [x] Priya waited 20 minutes for one latte (`videos/twenty-minute-latte`)
 - [x] Priya waited 20 minutes for one latte, a second take (`videos/priya-twenty-minutes`)
+- [x] Guess how many croissants pay the electric bill (`videos/croissants-power-bill`)
 
 Examples in the style guide:
 

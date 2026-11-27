@@ -1,0 +1,34 @@
+{
+  "title": "Guess How Many Croissants Pay the Power Bill",
+  "cover": { "hero": "headline" },
+  "background": "paper",
+  "output": "video.mp4",
+  "mix": { "pad": "sunny" },
+  "scenes": [
+    { "type": "./hook.js", "duration": 4, "peek": false,
+      "say": "Guess how many croissants it takes to pay one month of power.",
+      "props": { "label": "QUIZ", "line": "How many croissants pay *the power bill*?", "mark": "?" } },
+    { "type": "receipt", "duration": 5,
+      "say": "Say a croissant sells for four dollars. Butter and flour, a dollar. The baker's time, a dollar twenty. The bag, the card fee and the oven. You keep a dollar fifty.",
+      "props": { "caption": "One $4 *croissant*",
+        "title": "Butter croissant",
+        "items": [
+          { "label": "Croissant", "amount": 4.00 },
+          { "label": "Butter and flour", "amount": -1.00 },
+          { "label": "Baker's time", "amount": -1.20 },
+          { "label": "Bag and napkin", "amount": -0.10 },
+          { "label": "Card fee", "amount": -0.12 },
+          { "label": "Oven and gas", "amount": -0.08 }
+        ],
+        "totalLabel": "You keep", "currency": "$" } },
+    { "type": "jar", "duration": 4.5,
+      "say": "Now say your power bill is nine hundred dollars a month. Divide by a dollar fifty. That's six hundred croissants.",
+      "props": { "caption": "Just to keep *the lights on*",
+        "lines": ["$900 power bill", "÷ $1.50 a croissant"],
+        "total": 600, "currency": "", "label": "croissants a month" } },
+    { "type": "quote", "duration": 4.5,
+      "say": "That's twenty croissants a day, just for the lights and the oven. What did you guess?",
+      "props": { "name": "Roma Tom", "role": "owner, counting croissants", "quote": "20 a day, *just for the lights*. What did you guess?" } },
+    { "type": "endcard", "duration": 2.6, "say": "Follow for more owner tips.", "props": {} }
+  ]
+}
