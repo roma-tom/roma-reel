@@ -154,8 +154,10 @@ Made as videos:
 - [x] Owner burnout: what should you hand off first? (`videos/hand-off-first`)
 - [x] What do you do when someone calls in sick at 6 am? (`videos/sick-at-six`)
 - [x] Self-order kiosks: friend or foe? (`videos/self-order-kiosks`)
-- [x] Where does your $5 latte actually go? (`videos/five-dollar-latte`)
+- [x] Where does your $5 latte actually go? (`videos/five-dollar-latte-scissors`)
+- [x] Where does your $5 latte actually go, a second take (`videos/five-dollar-latte`)
 - [x] Priya waited 20 minutes for one latte (`videos/twenty-minute-latte`)
+- [x] Priya waited 20 minutes for one latte, a second take (`videos/priya-twenty-minutes`)
 
 Examples in the style guide:
 

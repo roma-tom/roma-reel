@@ -1,0 +1,39 @@
+{
+  "title": "Where Does Your $5 Latte Actually Go?",
+  "cover": { "hero": "number", "number": "$5", "label": "a latte. Guess what you keep." },
+  "background": "butter",
+  "output": "video.mp4",
+  "mix": { "pad": "mellow" },
+  "scenes": [
+    { "type": "./hook.js", "duration": 4, "peek": false,
+      "say": "Five dollars a latte. Guess how much you actually keep.",
+      "props": { "label": "CAFE MATH", "line": "$5 a latte. You keep *how much*?", "bill": "$5", "strips": ["MILK", "CUP", "STAFF", "RENT", "FEES"] } },
+    { "type": "receipt", "duration": 5,
+      "say": "Say coffee and milk cost ninety-five cents, the cup twenty. Staff, a dollar forty-five. Rent and bills, a dollar. The card fee, and everything else. You keep thirty-five cents.",
+      "props": { "caption": "One $5 *latte*",
+        "title": "Latte, 12 oz",
+        "items": [
+          { "label": "Latte", "amount": 5.00 },
+          { "label": "Coffee and milk", "amount": -0.95 },
+          { "label": "Cup and lid", "amount": -0.20 },
+          { "label": "Staff", "amount": -1.45 },
+          { "label": "Rent and bills", "amount": -1.00 },
+          { "label": "Card fee", "amount": -0.15 },
+          { "label": "Everything else", "amount": -0.90 }
+        ],
+        "totalLabel": "You keep", "currency": "$" } },
+    { "type": "quote", "duration": 4, "speaker": "Maria",
+      "say": "Five dollars for a latte? You must be rich.",
+      "props": { "name": "Maria", "role": "regular, oat latte", "quote": "Five dollars? You must be *rich*." } },
+    { "type": "pricetag", "duration": 4.5,
+      "say": "Here's the surprise. Raise the latte just a quarter, and you keep sixty cents instead of thirty-five. Almost double.",
+      "props": { "caption": "Just *25¢* more",
+        "item": "Latte", "from": "$5.00", "to": "$5.25",
+        "note": "you keep *60¢*, not 35¢" } },
+    { "type": "fix", "duration": 4.5,
+      "say": "So: work out what you keep on your top five drinks. Watch the small leaks, like free extra shots. And raise prices a little, once a year.",
+      "props": { "title": "Your number",
+        "steps": ["Cost out your top 5 drinks", "Watch the small leaks", "Small rises, once a year"] } },
+    { "type": "endcard", "duration": 2.6, "say": "Follow for more owner tips.", "props": {} }
+  ]
+}

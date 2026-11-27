@@ -1,37 +1,49 @@
 # five-dollar-latte
 
-**Kind:** advice (money). **Shape:** A, one item, one price, one surprise (`style/WHAT-WORKS.md`).
 **Question:** Where does your $5 latte actually go?
-**Background:** butter, pad: mellow. **Length:** about 42 s
+**Kind:** advice · **Shape:** A (one item, one price, one surprise: $5 charged, 57¢ kept)
+**Background:** butter · **Pad:** cosy · **Cover:** number (57¢)
+**Length:** about 37 s
 
 ## Scenes
 
 | # | Template | On screen | Says | Time |
 | --- | --- | --- | --- | --- |
-| 1 | ./hook.js | A $5 bill slides onto the counter; scissors snip it into strips that land around the frame labeled MILK, CUP, STAFF, RENT, FEES, leaving one small coin; Roma Tom gasps. "$5 a latte. You keep *how much*?" | Five dollars a latte. Guess how much you actually keep. | 4.5 s |
-| 2 | receipt | One $5 *latte*: Latte $5.00 / Coffee and milk −$0.95 / Cup and lid −$0.20 / Staff −$1.45 / Rent and bills −$1.00 / Card fee −$0.15 / Everything else −$0.90 / You keep $0.35 | Say coffee and milk cost ninety-five cents, the cup twenty. Staff, a dollar forty-five. Rent and bills, a dollar. The card fee, and everything else. You keep thirty-five cents. | 13.1 s |
-| 3 | quote | Maria, regular, oat latte: "Five dollars? You must be *rich*." | (Maria) Five dollars for a latte? You must be rich. | 4.0 s |
-| 4 | pricetag | Just *25¢* more: Latte $5.00 crossed out, $5.25. "you keep *60¢*, not 35¢" | Here's the surprise. Raise the latte just a quarter, and you keep sixty cents instead of thirty-five. Almost double. | 8.3 s |
-| 5 | fix | Your number: Cost out your top 5 drinks / Watch the small leaks / Small rises, once a year | So: work out what you keep on your top five drinks. Watch the small leaks, like free extra shots. And raise prices a little, once a year. | 9.8 s |
+| 1 | ./hook.js (this video's own hook) | The idea: scissors snip a $5 bill into strips (beans, milk, cup, card fee, staff, rent) until one sliver drops onto the counter as a coin with a "?" / "$5 latte. Guess what you *keep*." | Five dollars a latte. Guess how much you keep. | 3.9 s |
+| 2 | plate | Where your *$5* goes: Coffee and cup 25%, Staff 30% (highlighted), Rent and bills 28%, Card fee 6%, You 11% | Say a latte sells for five dollars. Beans, milk and a cup cost a dollar twenty-five. Staff, a dollar fifty. Rent and bills, a dollar forty. | 11.3 s |
+| 3 | receipt | One *latte*: Latte $5.00, Beans −$0.60, Milk −$0.40, Cup and lid −$0.25, Card fee −$0.28, Staff −$1.50, Rent and bills −$1.40, You keep $0.57 | Add a twenty-eight cent card fee, and you keep about fifty-seven cents a cup. | 5.7 s |
+| 4 | pricetag | Just *25¢* more: Latte $5.00 → $5.25 / You keep *81¢*, not 57¢ | Raise it a quarter, and you keep eighty-one cents. That's over forty percent more. | 5.8 s |
+| 5 | fix | The fix: Know your cost per drink / Price in staff time too / Offer a pastry with it | So: know what each drink costs you. Price for staff time, not just beans. And offer a pastry with it. | 7.2 s |
 | 6 | endcard | Follow for more *owner* tips | Follow for more owner tips. | 3 s |
 
 ## Fact notes
 
-- **Example figures** (said as "Say…"), chosen inside published ranges: espresso $0.40 to $0.60 a
-  double shot, milk $0.30 to $0.50 for 12 oz, cup, lid and sleeve $0.15 to $0.25 (Bellwether
-  Coffee, https://bellwethercoffee.com/blog/coffee-shop-profit-margins ); so coffee and milk
-  $0.95 and cup and lid $0.20. Staff $1.45, rent and bills $1.00, card fee $0.15 (3% of $5), and
-  everything else $0.90 (waste, supplies, equipment, insurance) are an example cafe.
-- **Worked calculation:** 0.95 + 0.20 + 1.45 + 1.00 + 0.15 + 0.90 = $4.65; $5.00 − $4.65 = $0.35
-  kept, a 7% net margin. Published estimates for independent coffee shop net margins run from
-  about 2.5% (Toast, https://pos.toasttab.com/blog/on-the-line/how-much-do-coffee-shops-make ) to
-  5 to 15% (Bellwether), so 7% sits inside that range.
-- **The 25¢ raise:** at $5.25 the costs above stay the same except the card fee, which rises to
-  about $0.16; kept ≈ $5.25 − $4.66 = $0.59, said as "sixty cents" and shown as 60¢. Assumes
-  guests keep buying at the same rate, which is the point of small rises.
+All cost lines are **example figures** for a typical independent US cafe, framed in the voice
+as "Say a latte sells for…". The caption doesn't say so.
+
+- **Beans, $0.60:** a double shot uses about 18 g of coffee. Wholesale specialty roasted coffee
+  at about $15 a pound (453 g) gives 18 / 453 × $15 ≈ $0.60. Example.
+- **Milk, $0.40:** about 10 oz steamed for a 12 to 16 oz latte, plus pitcher waste. Whole milk
+  around $4.20 a gallon (128 oz) retail: 10 / 128 × $4.20 ≈ $0.33, about $0.40 with waste. Example.
+- **Cup and lid, $0.25:** a 16 oz paper hot cup about $0.12 to $0.15, a lid $0.06 to $0.08 and
+  a sleeve about $0.04 at case prices from US restaurant suppliers. Example.
+- **Card fee, $0.28:** Square's US in-person rate, 2.6% + 15¢ (squareup.com/us/en/payments/pricing):
+  0.026 × $5 + $0.15 = $0.28.
+- **Staff, $1.50:** labor at 30% of sales, the low end of the 30 to 35% benchmark commonly cited
+  for US restaurants and cafes (National Restaurant Association; Toast restaurant benchmarks).
+  0.30 × $5 = $1.50.
+- **Rent and bills, $1.40:** rent, utilities, insurance, repairs, software and the rest at 28%
+  of sales. Example.
+- **You keep $0.57:** $5.00 − 0.60 − 0.40 − 0.25 − 0.28 − 1.50 − 1.40 = $0.57 (about 11%, in
+  line with the single-digit to low-teens net margins usually quoted for cafes).
+- **Plate shares:** 1.25 / 5 = 25%, 1.50 / 5 = 30%, 1.40 / 5 = 28%, 0.28 / 5 = 5.6%, 0.57 / 5 = 11.4%.
+- **Raise it 25¢:** price $5.25, card fee 0.026 × 5.25 + 0.15 = $0.29, every other cost the same:
+  $5.25 − 1.25 − 0.29 − 1.50 − 1.40 = $0.81. 0.81 / 0.57 = 1.42, "over forty percent more".
+- **The fix:** staff time is the biggest slice, so price drinks with labor in mind; a pastry
+  added to the same order uses almost no extra staff time, so most of its margin is kept.
 
 ## Post caption
 
-$5 a latte. Coffee and milk, the cup, staff, rent and bills, the card fee and everything else, and you keep about 35 cents. Here's the surprise: raise it just a quarter and you keep about 60 cents instead. Work out what you keep on your top five drinks, watch the small leaks, and raise prices a little once a year.
+A five-dollar latte doesn't leave you five dollars. Beans, milk and the cup take about a dollar twenty-five. Staff take a dollar fifty, rent and bills a dollar forty, and the card fee another twenty-eight cents. That leaves about fifty-seven cents. Raise the price a quarter and you keep eighty-one cents, over forty percent more. Know your cost per drink, price in staff time, and offer a pastry with it.
 
-#cafemath #cafeowner #coffeeshop #restaurantowner #smallbusiness
+#cafeowner #coffeeshop #restaurantowner #smallbusiness #cafebusiness
