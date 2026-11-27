@@ -37,7 +37,6 @@ these first.
 - [ ] The guest who is never happy [story] {B} Hook: (Ivan) "It's fine. It's just not how I like it." (hook idea: Ivan sends the same latte back three times, each one a little different, while Ana's eye twitches; quote, review, fix; Roma Tom asks him to show how he likes it, and he's a regular now)
 - [ ] Are you staffing for the rush, or for the whole day? [advice] {C} Hook: "Three staff at 3 pm. Zero guests. That's [hourly number] an hour." (hook idea: three baristas lean on the counter in an empty cafe, polishing the same cup, while a coin drips out of the register every second; rush, rota)
 - [ ] One dropped latte a day: what does it cost a year? [advice] {A} Hook: "One dropped latte a day. That's [yearly number] a year." (hook idea: a latte slips off a tray in slow motion and splashes; each drop turns into a coin rolling under the counter; jar, fix)
-- [ ] Your new hire froze on their first rush [advice] {C} Hook: "Day two. First rush. Theo froze." (hook idea: tickets pile up on the rail while Theo stands perfectly still with a milk jug, the steam wand screaming; tickets, day, fix: how to train a new hire in week one)
 - [ ] Should you charge for to-go cups? [advice] {A} Hook: "Every to-go cup costs you [cents]. Who pays?" (hook idea: a tower of to-go cups, lids and sleeves grows taller with every order while a coin drops off for each; pricetag, versus)
 - [ ] You're out of the dish they came for [story] {B} Hook: (Maria) "You're out? I came here for that." (hook idea: Maria's face falls as Dev holds up an empty pan; tickets, quote, fix; how to handle running out mid-service, and Maria gets a first taste of tomorrow's batch)
 - [ ] What does one free extra shot cost you? [advice] {A} Hook: "One free extra shot, every morning. Guess the bill." (hook idea: a shot of espresso drips into a cup and every drop lands as a coin; jar, fix)
@@ -158,6 +157,7 @@ Made as videos:
 - [x] Priya waited 20 minutes for one latte, a second take (`videos/priya-twenty-minutes`)
 - [x] Guess how many croissants pay the electric bill (`videos/croissants-power-bill`)
 - [x] Leo's order came out wrong. Twice. (`videos/leos-order-twice`)
+- [x] Your new hire froze on their first rush (`videos/new-hire-froze`)
 
 Examples in the style guide:
 

@@ -1,0 +1,30 @@
+{
+  "title": "Your New Hire Froze on Their First Rush",
+  "cover": { "hero": "tomato", "name": "Theo" },
+  "background": "lime",
+  "output": "video.mp4",
+  "mix": { "pad": "warm" },
+  "scenes": [
+    { "type": "./hook.js", "duration": 4, "peek": false,
+      "say": "Day two. First rush. Theo froze.",
+      "props": { "label": "STAFF", "line": "Day two. First rush. *Theo froze.*" } },
+    { "type": "quote", "duration": 4.5, "speaker": "Theo",
+      "say": "Nobody showed me the milk station. I just stood there.",
+      "props": { "name": "Theo", "role": "new barista, day two", "quote": "Nobody showed me *the milk station*." } },
+    { "type": "day", "duration": 5,
+      "say": "His first week should have looked like this. Day one, shadow someone. Day two, one station only. Day three, the slow afternoon on his own. Day five, his first rush, with backup.",
+      "props": { "caption": "A first week that *works*",
+        "steps": [
+          { "time": "Day 1", "label": "Shadow Ana" },
+          { "time": "Day 2", "label": "One station only" },
+          { "time": "Day 3", "label": "Slow afternoon, solo" },
+          { "time": "Day 5", "label": "First rush, with backup" }
+        ],
+        "highlight": 3, "host": "Theo" } },
+    { "type": "fix", "duration": 4.5,
+      "say": "So: never put a new hire on their first rush alone. Teach one station at a time. And pair them with one person all week.",
+      "props": { "title": "Train week one",
+        "steps": ["No solo rush in week one", "One station at a time", "One buddy all week"] } },
+    { "type": "endcard", "duration": 2.6, "say": "Follow for more owner tips.", "props": {} }
+  ]
+}
