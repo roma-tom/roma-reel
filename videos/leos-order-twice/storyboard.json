@@ -1,0 +1,34 @@
+{
+  "title": "Leo's Order Came Out Wrong. Twice.",
+  "cover": { "hero": "tomato", "name": "Leo" },
+  "background": "sky",
+  "output": "video.mp4",
+  "mix": { "pad": "cosy" },
+  "scenes": [
+    { "type": "./hook.js", "duration": 4, "peek": false, "speaker": "Leo",
+      "say": "This isn't what I ordered. Again.",
+      "props": { "label": "STORY TIME", "line": "Wrong order. *Again.*", "stamp": "2x" } },
+    { "type": "tickets", "duration": 5,
+      "say": "No pickles, it said. But the note was written so small, nobody on the line saw it. Twice.",
+      "props": { "caption": "The note *nobody saw*",
+        "tickets": [
+          { "table": "T3", "items": ["1 burger", "no pickles"], "minutes": 14 },
+          { "table": "T5", "items": ["2 soups"], "minutes": 6 },
+          { "table": "T1", "items": ["1 club"], "minutes": 4 }
+        ],
+        "limit": 12, "goal": "REMADE TWICE", "cook": "Dev" } },
+    { "type": "quote", "duration": 4.5,
+      "say": "Roma Tom brought the third one himself. You're right. That's on us. And dessert's on us too.",
+      "props": { "name": "Roma Tom", "role": "owner, plate number three", "quote": "You're right. *That's on us.*" } },
+    { "type": "quote", "duration": 4, "speaker": "Leo",
+      "say": "He fixed it in person. So I came back. No pickles, every time.",
+      "props": { "name": "Leo", "role": "regular now, no pickles", "quote": "He fixed it himself. So I *came back*." } },
+    { "type": "fix", "duration": 4.5,
+      "say": "So: put allergy and no-this notes in big letters on the ticket. Read them out at the pass. And when it's wrong twice, the owner takes the third plate.",
+      "props": { "title": "Get it right",
+        "steps": ["Big letters for changes", "Read changes out at the pass", "Wrong twice? You take plate three"] } },
+    { "type": "endcard", "duration": 3,
+      "say": "Follow for more cafe life.",
+      "props": { "cta": "Follow for more *cafe life*" } }
+  ]
+}
