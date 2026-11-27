@@ -30,7 +30,6 @@ one price, one surprise; {B} an unhappy guest, in their words, won back; {C} a s
 a name or a number. They're ordered so the area (money, guests, staff) changes each time. Make
 these first.
 
-- [ ] Priya waited 20 minutes for one latte [story] {B} Hook: (Priya) "Twenty minutes. For one latte." (hook idea: a wall clock spins while Priya taps her foot at the pickup counter and drinks go out to everyone else; tickets, quote, regulars; ends with her back as a regular)
 - [ ] Same shift, $40 less in tips: how do you split card tips fairly? [advice] {C} Hook: "Same shift. Forty dollars less in tips." (hook idea: two tip jars side by side, Ana's and Dev's, one fills, the other barely moves, and Ana stares at it; plate, rota)
 - [ ] The $4 muffin or the $4 drip coffee: which earns more? [quiz] {A} Hook: "Same price. One earns you way more. Which?" (hook idea: a muffin and a cup on a seesaw at exactly level, a question mark pops up; versus, receipt; ends asking for guesses)
 - [ ] Dev wants to quit on a Friday night [story] {C} Hook: (Dev) "Can we talk after close?" (hook idea: the closing shift, Dev hangs up his apron slowly while Roma Tom freezes mid-mop; chat, receipt, fix; what it would cost to replace him, and what Roma Tom does)
@@ -156,6 +155,7 @@ Made as videos:
 - [x] What do you do when someone calls in sick at 6 am? (`videos/sick-at-six`)
 - [x] Self-order kiosks: friend or foe? (`videos/self-order-kiosks`)
 - [x] Where does your $5 latte actually go? (`videos/five-dollar-latte`)
+- [x] Priya waited 20 minutes for one latte (`videos/priya-twenty-minutes`)
 
 Examples in the style guide:
 

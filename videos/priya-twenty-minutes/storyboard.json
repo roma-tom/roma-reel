@@ -1,0 +1,139 @@
+{
+  "title": "She Waited 20 Minutes for One Latte. Then This.",
+  "cover": {
+    "hero": "crowd",
+    "names": [
+      "Priya",
+      "Ana",
+      "Roma Tom"
+    ],
+    "kicker": "PRIYA AT PICKUP",
+    "headline": "Twenty minutes. For *one latte*."
+  },
+  "background": "sky",
+  "output": "video.mp4",
+  "mix": {
+    "pad": "drift"
+  },
+  "scenes": [
+    {
+      "type": "./hook.js",
+      "duration": 3,
+      "speaker": "Priya",
+      "say": "Twenty minutes. For one latte.",
+      "props": {
+        "label": "PRIYA AT PICKUP",
+        "line": "Twenty minutes. For *one latte*.",
+        "sign": "PICKUP"
+      }
+    },
+    {
+      "type": "tickets",
+      "duration": 5,
+      "say": "Saturday rush. Priya's oat latte ticket slipped under the pile. Twelve drinks went out before hers.",
+      "props": {
+        "caption": "Her ticket got *buried*",
+        "tickets": [
+          {
+            "table": "#31",
+            "items": [
+              "2 latte",
+              "1 mocha"
+            ],
+            "minutes": 4
+          },
+          {
+            "table": "#33",
+            "items": [
+              "1 cappuccino"
+            ],
+            "minutes": 3
+          },
+          {
+            "table": "PRIYA",
+            "items": [
+              "1 oat latte"
+            ],
+            "minutes": 20
+          }
+        ],
+        "limit": 8,
+        "goal": "GOAL: UNDER 8 MIN",
+        "cook": "Ana"
+      }
+    },
+    {
+      "type": "quote",
+      "duration": 4.5,
+      "speaker": "Priya",
+      "say": "I watched everyone else get their drinks. Nobody even looked at me.",
+      "props": {
+        "name": "Priya",
+        "role": "first-time guest",
+        "quote": "I watched *everyone else* get theirs."
+      }
+    },
+    {
+      "type": "fix",
+      "duration": 5,
+      "say": "So Roma Tom walked her latte over himself. He said sorry, with no excuses. And her next one was on the house.",
+      "props": {
+        "caption": "How to *win her back*",
+        "title": "The win-back",
+        "steps": [
+          "Walk it over yourself",
+          "Say sorry. No excuses.",
+          "Next one is on the house"
+        ]
+      }
+    },
+    {
+      "type": "calendar",
+      "duration": 4.5,
+      "say": "Priya came back on Monday. And almost every weekday since.",
+      "props": {
+        "caption": "She *came back*",
+        "month": "NOVEMBER",
+        "start": 6,
+        "days": 30,
+        "marks": {
+          "7": "cross",
+          "9": "tick",
+          "10": "tick",
+          "11": "tick",
+          "12": "tick",
+          "13": "tick",
+          "16": "tick",
+          "17": "tick",
+          "18": "tick",
+          "19": "tick",
+          "20": "tick",
+          "23": "tick",
+          "24": "tick",
+          "25": "tick",
+          "26": "tick",
+          "27": "tick"
+        },
+        "legend": [
+          {
+            "mark": "cross",
+            "label": "The slow latte"
+          },
+          {
+            "mark": "tick",
+            "label": "Priya came back"
+          }
+        ]
+      },
+      "peek": false
+    },
+    {
+      "type": "endcard",
+      "duration": 3,
+      "say": "Slow drinks happen. Ignoring the guest is the real mistake. Follow for more cafe life.",
+      "props": {
+        "cta": "Follow for more *cafe life*"
+      }
+    }
+  ]
+}
